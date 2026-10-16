@@ -4,3 +4,8 @@ shared/
 .DS_Store
 .Rproj.user/
 .quarto/
+
+# Rendered slides contain quotes and numbers from the conversations
+products/folien/*.html
+products/folien/*_files/
+products/folien/.quarto/
