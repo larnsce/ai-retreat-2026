@@ -1,0 +1,170 @@
+use_case_id,transcript_id,speaker_id,status,task_type,sector,tools,data_sensitivity,cluster,summary
+U001,T03,P02,gelebt,daten_auswerten,personal,Excel,personenbezogen,dokumente,Eine Person lässt die interne KI-Umgebung Daten von 30 aus 800 Mitarbeitenden aus einem PDF und zwei Tabellen heraussuchen und ein Formular zu Förderzulagen befüllen.
+U002,T03,P02,gelebt,automatisieren,personal,,intern,dokumente,"Die KI arbeitet in freigegebenen Ordnern auf dem Rechner, baut eine Vorlage nach und legt das Ergebnis dort ab."
+U003,T03,P02,gelebt,schreiben,personal,Copilot,intern,gestaltung,E-Mails werden mit Copilot geschrieben und ins Englische übersetzt.
+U004,T03,P01,gelebt,wissen_verwalten,wissenschaft,Claude,intern,gedaechtnis,"Sieben Jahre persönliche Notizen werden als Wiki mit Claude gepflegt, verknüpft und zusammengefasst."
+U005,T03,P02,wunsch,wissen_verwalten,personal,,intern,gedaechtnis,"Ein Assistent mit Gedächtnis soll über alle Projekte Zettel-Scans, Sprachnachrichten und Mails sammeln und den Stand aufbereiten."
+U006,T03,P02,wunsch,lernen,personal,Copilot,keine,orientierung,"Die Person möchte lernen, was Copilot über das Schreiben von E-Mails hinaus kann."
+U007,T03,P02,wunsch,andere,personal,,intern,dokumente,"KI-Ergebnisse sollen versioniert werden, damit man zu einer früheren Fassung zurückspringen kann."
+U008,T03,P01,wunsch,schreiben,wissenschaft,,keine,gestaltung,Ein System für Newsletter und Blog soll aus den eigenen Ideen Texte machen.
+U009,T04,P03,gelebt,gestalten,beratung,Claude Code;OpenRouter,keine,gestaltung,"Claude Code steuert als Orchestrator über eine API-Plattform Video-, Bild-, Musik- und Stimmgeneratoren mit Storyboard und Feedback-Schleife, mit einem Budget unter 10 Dollar."
+U010,T04,P03,gelebt,planen,beratung,Claude;Garmin,personenbezogen,eigene_daten,"Für das Marathontraining sind eigene Apps gebaut und die Sportuhr per MCP angebunden, Claude schreibt die Trainingspläne."
+U011,T04,P03,gelebt,daten_auswerten,beratung,Claude,personenbezogen,eigene_daten,"Claude sucht in historischen Gesundheits- und Sportdaten Muster, etwa zwischen Trainingszeit und Tiefschlaf."
+U012,T04,P03,gelebt,daten_auswerten,beratung,Gemini,personenbezogen,eigene_daten,Eine Fotoanalyse der Druckstellen am Fuß mit Gemini hilft bei der Wahl der Laufschuhe.
+U013,T04,P03,gelebt,recherchieren,beratung,Claude,keine,sparring,Claude recherchiert unbekannte Wissenslücken und Studien zu Langstreckenläuferinnen einer Altersgruppe.
+U014,T04,P01,gelebt,daten_auswerten,wissenschaft,,personenbezogen,eigene_daten,Essen wird per Foto protokolliert und Supplements werden in einer Liste geführt.
+U015,T04,P01,wunsch,daten_auswerten,wissenschaft,,personenbezogen,eigene_daten,Alte Lauf- und Gesundheitsdaten aus Open-Source-Tools sollen zusammengeführt und ausgewertet werden.
+U016,T04,unklar,wunsch,programmieren,unklar,lokales Modell,keine,lokal,"Lokale Open-Source-Modelle sollen eigene Anwendungen tragen, auch wenn sie langsamer und schwächer sind als die besten Modelle."
+U017,T04,P01,wunsch,daten_auswerten,wissenschaft,,personenbezogen,eigene_daten,Blutwerte sollen erhoben und zusammen mit den übrigen Gesundheitsdaten ausgewertet werden.
+U018,T05,P01,gelebt,programmieren,wissenschaft,Claude Code;lokales Modell,keine,lokal,"Claude Code hilft beim Installieren lokaler Modelle, die sich aber als zu langsam für das Vorhaben erweisen."
+U019,T05,P04,gelebt,programmieren,coaching,Claude Code,keine,gestaltung,"Eine Person hat ihre Webseite mit Claude Code im Terminal gebaut, eingerichtet und gehostet von einem Familienmitglied."
+U020,T05,P04,gelebt,planen,coaching,Claude;ChatGPT,keine,sparring,"Claude und ChatGPT dienen als Sparringspartner für Workshop-Ideen, gezielt mit der Bitte um neue Vorschläge."
+U021,T05,P01,gelebt,gestalten,wissenschaft,,keine,gestaltung,In Workshops bauen Teilnehmende aus ihrem Lebenslauf Tabellen und daraus eine datengetriebene Webseite.
+U022,T05,P04,wunsch,gestalten,coaching,,keine,gestaltung,Skillsets sollen Folien im Design verschiedener Kooperationspartner erstellen.
+U023,T05,P04,wunsch,planen,coaching,,intern,sparring,"Ein Agent, der Ton, Haltung und Interventionen der Person kennt, soll bei Workshops helfen."
+U024,T05,P01,wunsch,programmieren,wissenschaft,lokales Modell,keine,lokal,"Lokale Modelle sollen stark genug werden, um die eigene Arbeit zu tragen."
+U025,T06,P09,gelebt,gestalten,medien,,keine,gestaltung,"Die Person berichtet, dass beauftragte Agenturen KI in der Ideenentwicklung für Bilder, zunehmend Text und erste Videos einsetzen."
+U026,T06,P09,gelebt,gestalten,medien,,keine,gestaltung,In der Kreation werden Ideen per Spracheingabe in Minuten visualisiert statt von Hand skizziert.
+U027,T06,P09,wunsch,automatisieren,medien,,intern,gestaltung,"Die ganze Wertschöpfungskette im Marketing soll automatisiert werden, von der Marktforschung über die Kreation bis zum Reporting."
+U028,T06,P09,wunsch,daten_auswerten,medien,,intern,planung,Kampagnen in digitalen Kanälen sollen laufend gemessen und optimiert werden.
+U029,T07,P05,gelebt,automatisieren,coaching,Claude,intern,vertrieb,"Eine Person hat in drei Stunden einen Vertriebsagenten gebaut, der ihre Wunschkunden-Kriterien kennt und Unternehmen clustert."
+U030,T07,P02,gelebt,schreiben,personal,,personenbezogen,dokumente,"Eine Vereinbarung wird mit der internen KI-Umgebung in drei Varianten erstellt, dazu eine PDF-Zusammenfassung mit Summen."
+U031,T07,P02,gelebt,daten_auswerten,personal,,personenbezogen,planung,Die interne KI-Umgebung wertet Resturlaubstage aus einem Stundentool aus und bereitet Mailentwürfe an die zuständigen Führungskräfte vor.
+U032,T07,P05,wunsch,automatisieren,coaching,Claude,personenbezogen,vertrieb,"LinkedIn-Kontakte sollen per Download oder Browsersteuerung mit der Wunschkundenliste abgeglichen werden, danach folgen personalisierte Mailvorlagen und Nachverfolgung, angeregt durch einen Mitveranstalter."
+U033,T07,P05,wunsch,automatisieren,coaching,,intern,assistenz,Bahnrechnungen sollen per Browsersteuerung jeden Monat automatisch aus dem Portal gesammelt und an die Buchhaltung geschickt werden.
+U034,T07,P02,wunsch,wissen_verwalten,personal,,intern,gedaechtnis,"Ein eigener Assistent soll Mails, Sprachnachrichten und fotografierte Notizen den Projekten zuordnen und melden, wer noch etwas schuldet."
+U035,T07,P02,wunsch,kommunizieren,personal,Copilot;Outlook,personenbezogen,assistenz,Mails zu Resturlaub sollen mit Copilot direkt aus Outlook an die Führungskräfte verschickt werden.
+U036,T08,P12,gelebt,schreiben,andere,Copilot,intern,gestaltung,E-Mails werden selbst vorgeschrieben und von Copilot glatter und strukturierter formuliert.
+U037,T08,P05,gelebt,automatisieren,coaching,Claude Cowork,intern,dokumente,"Ein Agent mit Rolle, Ziel und Ordnerzugriff erzeugt Word-, PDF- und Excel-Dateien und legt sie ab."
+U038,T08,unklar,gelebt,automatisieren,unklar,Claude,intern,assistenz,Rechnungen und Angebote entstehen über einen gespeicherten Skill mit Logo und gleichbleibendem Design.
+U039,T08,P05,gelebt,recherchieren,coaching,Claude,intern,vertrieb,"Ein Verkaufsexperten-Agent hat im Gespräch eine Wunschkundenliste nach Branche, Region, Größe und Familienfreundlichkeit erarbeitet."
+U040,T08,P05,gelebt,lernen,coaching,,keine,sparring,Als Einstiegsprompt lässt sich die Person zuerst von der KI interviewen.
+U041,T08,P12,wunsch,automatisieren,andere,Copilot,intern,assistenz,Wiederkehrende Aufgaben wie das Überarbeiten von Mails sollen als Prompt-Vorlage oder Copilot-Agent gespeichert werden.
+U042,T08,P12,wunsch,andere,andere,Copilot,intern,dokumente,"Verhaltenskodizes von Kunden zu Menschenrechten und Umwelt sollen automatisch mit eigenen Grundsatzdokumenten abgeglichen, als kritisch oder zustimmbar bewertet und mit einem Antwortentwurf versehen werden."
+U043,T08,P12,wunsch,planen,andere,Copilot;Outlook,intern,assistenz,Jeden Morgen sollen Postfach und Aufgabenplaner ausgewertet und die wichtigsten Aufgaben priorisiert werden.
+U044,T08,P05,wunsch,daten_auswerten,coaching,Claude,personenbezogen,vertrieb,"LinkedIn-Kontakte sollen mit der Wunschkundenliste abgeglichen werden, eventuell mit einer kleinen lokalen Anwendung."
+U045,T09,P04,gelebt,planen,coaching,ChatGPT,keine,sparring,Eine Person nutzt ChatGPT als Sparringspartner für die Entwicklung von Trainings.
+U046,T09,P04,gelebt,gestalten,coaching,Claude,keine,gestaltung,"Eine Person hat ihre Webseite mit Claude neu gestaltet, mit Hilfe eines Familienmitglieds."
+U047,T09,P04,gelebt,gestalten,coaching,,intern,gestaltung,"Eine Person hat erste Folienvorlagen als Skillset hochgeladen, um Folien im passenden Design zu erzeugen."
+U048,T09,P12,gelebt,schreiben,andere,,intern,assistenz,"Eine Person lässt E-Mails von KI überarbeiten, damit sie übersichtlicher werden."
+U049,T09,P12,gelebt,lernen,andere,,keine,sparring,"Eine Person lässt sich von der KI helfen, eine Aufgabe zu formulieren und die Schritte durchzugehen."
+U050,T09,P04,wunsch,gestalten,coaching,,intern,gestaltung,"Folien und Arbeitsblätter sollen automatisch im Design der jeweiligen Kunden mit Logos, Schriften und Farben entstehen."
+U051,T09,P04,wunsch,planen,coaching,,intern,sparring,KI soll als Assistenz vom ersten Kundengespräch bis zur Workshop-Entwicklung bei der Strukturierung helfen.
+U052,T09,P12,wunsch,daten_auswerten,andere,,intern,dokumente,KI soll Grundsatzdokumente von Kunden zu Menschenrechten und Ökologie prüfen und kritische Punkte markieren.
+U053,T09,P12,wunsch,daten_auswerten,andere,Copilot;Excel,intern,dokumente,"Lieferantenfragebögen sollen ausgewertet, mit eigenen Daten und Emissionsdaten verknüpft und Rohstoffe pro Lieferant bewertet werden."
+U054,T09,P12,wunsch,daten_auswerten,andere,Excel,keine,eigene_daten,"Die KI soll Formeln zum Verknüpfen von Excel-Tabellen liefern, ohne dass Kundendaten eingegeben werden."
+U055,T10,P10,gelebt,schreiben,bildung,,intern,assistenz,Eine Person lässt problematische Mails aus einem kurzen Umriss entwerfen und überarbeitet sie dann selbst.
+U056,T10,P10,gelebt,zusammenfassen,bildung,,keine,gestaltung,Eine Person nutzt KI für Textzusammenfassungen und Bilder für die Ausbildung.
+U057,T10,P10,gelebt,programmieren,bildung,,keine,software,"Ein Kollege der Person hat mit KI einen EKG- und Defibrillator-Simulator auf dem Tablet gebaut, der ein teures Gerät ersetzt."
+U058,T10,P10,gelebt,programmieren,bildung,,intern,software,"Ein Kollege der Person hat mit KI eine Lager-App gebaut, die Artikel per QR-Code erfasst und Bestellformulare erzeugt."
+U059,T10,P10,gelebt,programmieren,bildung,,personenbezogen,software,"Ein Kollege der Person hat mit KI ein Werkzeug für Fallbeispiele gebaut, das das Vorgehen der Auszubildenden aufzeichnet und einen Bericht erstellt."
+U060,T10,P10,gelebt,programmieren,bildung,,intern,software,"Ein Kollege der Person hat mit KI eine Geräteverfolgung per QR-Code gebaut, die zeigt, wer welches Gerät in welchem Raum hat."
+U061,T10,P10,wunsch,planen,bildung,,personenbezogen,planung,Die Einsatzplanung der Auszubildenden in Krankenhausabteilungen mit vielen Variablen soll mit KI erfolgen.
+U062,T10,P16,wunsch,automatisieren,coaching,,intern,assistenz,"Ein Assistent soll Kalender, Mails und Buchhaltung verknüpfen und an Rücksprachen und Vorbereitungsschritte für Aufträge erinnern."
+U063,T10,P16,wunsch,planen,coaching,,intern,planung,Eine Person möchte mit KI ihre Arbeitslast gleichmäßiger über die Wochen verteilen.
+U064,T11,P10,gelebt,planen,bildung,,intern,sparring,Eine Person nutzt KI für die Unterrichtsvorbereitung und die Organisation der Abläufe in der Schule.
+U065,T11,P09,gelebt,gestalten,medien,,intern,gestaltung,"Eine Person nutzt KI in der Markenkommunikation für Ideenentwicklung, Bildgenerierung und Videoproduktion."
+U066,T11,P10,wunsch,recherchieren,bildung,,keine,sparring,"Mit KI-Recherche und Quellenprüfung soll ohne Werbeagentur herausgefunden werden, welche Kommunikationskanäle sich lohnen."
+U067,T11,P09,wunsch,daten_auswerten,medien,,intern,planung,"KI soll im Marketing entlang der ganzen Wertschöpfung helfen, etwa bei Marktforschung und Reporting über Kampagnenwirkung."
+U068,T12,P14,gelebt,automatisieren,personal,Notion,personenbezogen,dokumente,"Agenten lesen Bewerbungen aus, erfassen sie im System und schlagen Absagen vor und schreiben sie."
+U069,T12,P14,gelebt,automatisieren,personal,,intern,assistenz,"Ein Postfach-Agent liest Mails, ordnet sie als Aufgabe oder Termin ein, schlägt Antworten vor und verschickt sie nach Freigabe."
+U070,T12,P02,gelebt,schreiben,personal,,personenbezogen,dokumente,"Eine Person lässt Vertragsversionen, Optionen und Übersichts-PDFs für Trennungsgespräche von KI erstellen und kontrolliert sie."
+U071,T12,P14,gelebt,automatisieren,personal,,personenbezogen,vertrieb,"Ein Personalberater berichtet, dass Bewerbende eigene Bots nutzen, die passende Stellen suchen und ab 85 Prozent Übereinstimmung automatisch Bewerbungen schicken."
+U072,T12,P14,wunsch,automatisieren,personal,,intern,assistenz,Mehr agentische KI soll in der täglichen Arbeit Standardanfragen selbstständig beantworten.
+U073,T12,P15,wunsch,programmieren,gesundheit,,keine,software,"Eine Person möchte eine App zum Pandemievertrag entwickeln, die Mitgliedern hilft, Kompromisse zu finden."
+U074,T13,unklar,gelebt,schreiben,unklar,Granola,keine,transkription,"Eine Person spricht Ideen beim Autofahren in Granola ein und verarbeitet das Transkript später mit Code weiter, etwa zu einem Blogpost."
+U075,T13,unklar,gelebt,schreiben,unklar,,keine,transkription,"Eine Person nutzt ständig Sprache zu Text, um Gedanken als Grundlage in ein Format zu bringen."
+U076,T13,unklar,gelebt,zusammenfassen,unklar,Granola,intern,transkription,"Eine Person nutzt die automatische Zusammenfassung in Granola, die Privates von Beruflichem trennt."
+U077,T13,unklar,gelebt,andere,unklar,,intern,transkription,Gespräche werden über die Telefon-App aufgenommen und transkribiert.
+U078,T14,P03,gelebt,programmieren,beratung,,personenbezogen,eigene_daten,"Eine Person hat eigene Mini-Apps für Marathontraining, Kraft, Ernährung und Supplementierung gebaut und damit neun Monate trainiert."
+U079,T14,P03,gelebt,wissen_verwalten,beratung,Obsidian,intern,gedaechtnis,"Eine Person hat mit Obsidian ein Second Brain gebaut, das der KI Kontext zu Projekten gibt."
+U080,T14,P03,gelebt,gestalten,beratung,Miro,intern,gestaltung,"Eine Person lässt Folien, Miro-Boards und Angebote nach eigenen Vorgaben von KI anlegen und prüft sie danach."
+U081,T14,P03,gelebt,automatisieren,beratung,,intern,dokumente,"Eine Person berichtet von einer Mittelstandsfirma, deren interne KI-Lösung handschriftliche Maschinenreports digitalisiert."
+U082,T14,unklar,gelebt,daten_auswerten,unklar,,personenbezogen,dokumente,"Kandidatentexte und Audio werden mit personaldiagnostischem Hintergrund ausgewertet, ob als eigene Nutzung, ist unklar."
+U083,T14,unklar,wunsch,automatisieren,unklar,,intern,assistenz,Weniger Zeit in Buchhaltung und Dokumentation soll mehr Raum für persönliche Gespräche schaffen.
+U084,T16,P05,gelebt,zusammenfassen,coaching,Granola,personenbezogen,transkription,Eine Person zeichnet Gespräche mit einem Transkriptionsdienst auf dem Handy auf.
+U085,T17,P15,gelebt,lernen,gesundheit,,personenbezogen,sparring,"Eine Person nutzt KI privat für alles, auch zum Deutschlernen und für Bewerbungen."
+U086,T17,P08,gelebt,planen,gesundheit,Claude,keine,sparring,"Die Ärztin hat sich von der KI interviewen lassen, um Teilaufgaben ohne Verbindung zum Praxissystem zu finden."
+U087,T17,P08,gelebt,zusammenfassen,gesundheit,,personenbezogen,dokumente,"Die Ärztin kopiert Notizen aus dem Praxissystem in eine KI im Browser, lässt Zusammenfassungen und Briefe erstellen und kopiert sie zurück."
+U088,T17,P08,wunsch,zusammenfassen,gesundheit,Tandem;ChatGPT;Granola,personenbezogen,transkription,"Eine KI soll im Arztgespräch mithören, dokumentieren, Diagnosecodes vergeben und Briefe schreiben."
+U089,T17,P08,wunsch,automatisieren,gesundheit,,intern,assistenz,Die Ärztin wünscht sich mit KI weniger Verwaltungsaufwand in der Praxis.
+U090,T17,P08,wunsch,lernen,gesundheit,,keine,sparring,"Die Ärztin will am Retreat an einem privaten Übungsprojekt lernen, weil KI im Beruf nicht erlaubt ist."
+U091,T18,P07,gelebt,recherchieren,projektmanagement,Gemini;Claude;Mistral;Copilot,intern,orientierung,"Der Projektmanager nutzt privat zwei KI-Werkzeuge, in der Firma ein vorgeschriebenes Modell und bei Kunden ein weiteres."
+U092,T18,P04,gelebt,planen,coaching,,intern,sparring,Die Coachin nutzt KI als Sparringspartner für die Konzeption von Workshops.
+U093,T18,P04,gelebt,gestalten,coaching,Claude,keine,gestaltung,"Die Coachin hat ihre Webseite mit KI im Chat ausgearbeitet, auf einer Grundlage, die ihr Sohn gebaut hat."
+U094,T18,P07,gelebt,gestalten,projektmanagement,Claude,intern,gestaltung,"Der Projektmanager berichtet von einem Mitarbeiter, der Präsentationen mit KI erstellt."
+U095,T18,P04,wunsch,gestalten,coaching,,intern,gestaltung,Die Coachin möchte Folien für Kooperationspartner automatisch mit deren Schriften und Logos erstellen lassen.
+U096,T18,P04,wunsch,automatisieren,coaching,,personenbezogen,assistenz,Die Coachin wünscht sich einen Agenten vom Kundengespräch bis zu Feedback und Rechnung.
+U097,T18,P07,wunsch,planen,projektmanagement,,intern,planung,"Der Projektmanager möchte Folien, Statusberichte und Stakeholder-Management mit KI erledigen."
+U098,T18,P07,wunsch,recherchieren,projektmanagement,,keine,orientierung,Der Projektmanager wünscht sich einen Leitfaden zu KI-Werkzeugen und einen regelmäßigen Bericht über deren Änderungen.
+U099,T18,P07,wunsch,andere,projektmanagement,lokales Modell,intern,lokal,Der Projektmanager fände eine lokale KI auf dem eigenen Rechner interessant.
+U100,T19,P05,gelebt,daten_auswerten,coaching,Claude,intern,vertrieb,"Eine Person hat einen Vertriebsagenten gebaut, der Wunschkunden nach eigenen Kriterien bewertet."
+U101,T19,P06,gelebt,automatisieren,bildung,Claude;Notion,personenbezogen,assistenz,Eine Person räumt das Postfach mit KI auf und überträgt Kundenanfragen aus Mails in ein CRM.
+U102,T19,P06,gelebt,schreiben,bildung,Claude;Zoom,personenbezogen,dokumente,"Eine Person erstellt aus aufgezeichneten Kundengesprächen mit einem Skill Angebote, und die KI hinterfragt den Preis."
+U103,T19,P06,gelebt,automatisieren,bildung,Claude;LexOffice,intern,assistenz,Eine Person lädt Fahrkarten-Rechnungen per Browsersteuerung herunter und legt sie in der Buchhaltung ab.
+U104,T19,P06,gelebt,kommunizieren,bildung,Claude,personenbezogen,vertrieb,Eine Person hat mit KI personalisierte Nachrichten an 50 Teilnehmende in vier Gruppen geschrieben.
+U105,T19,P05,wunsch,daten_auswerten,coaching,Claude,personenbezogen,vertrieb,"Eine Person möchte ihren LinkedIn-Export mit der Wunschkundenliste abgleichen, eventuell mit Browsersteuerung."
+U106,T19,P05,wunsch,kommunizieren,coaching,,intern,vertrieb,Eine Person möchte wöchentlich mit dem Agenten Prio-A-Unternehmen und Anschreiben durchgehen.
+U107,T19,P05,wunsch,daten_auswerten,coaching,,keine,gestaltung,Eine Person möchte ihre erfolgreichsten LinkedIn-Beiträge auswerten.
+U108,T19,P05,wunsch,lernen,coaching,,keine,sparring,"Eine Person möchte KI als neues Modul in ihr Programm für Führungskräfte in Elternzeit aufnehmen, zusammen mit einer Kollegin."
+U109,T20,P06,gelebt,planen,bildung,Instinkt,personenbezogen,assistenz,"Eine Person nutzt einen persönlichen Agenten per Messenger, der Restaurant und Weg recherchiert und rechtzeitig erinnert."
+U110,T20,P06,gelebt,daten_auswerten,bildung,Claude;Excel,personenbezogen,assistenz,Eine Person erstellt die Abrechnung des Retreats mit KI in einer Tabellenkalkulation aus Teilnehmenden- und Hotelrechnungen.
+U111,T20,P06,gelebt,gestalten,bildung,Claude,keine,gestaltung,Eine Person baut Vorträge und Workshop-Startseiten als HTML-Seiten mit Animationen.
+U112,T20,P06,gelebt,schreiben,bildung,,intern,assistenz,Eine Person lässt E-Mails gelegentlich von KI vorformulieren.
+U113,T20,P13,wunsch,planen,coaching,Claude;sevDesk;n8n;Make,personenbezogen,assistenz,"Eine Person möchte einen Assistenten, der bei bestätigten Aufträgen Mails auswertet und Termin samt Vorbereitungszeit in den Kalender einträgt."
+U114,T20,P13,wunsch,planen,coaching,,intern,planung,Eine Person denkt später an einen Freitagsbericht mit anstehenden Aufgaben.
+U115,T20,P13,wunsch,automatisieren,coaching,,personenbezogen,assistenz,Eine Person würde alle Verwaltungsaufgaben inklusive Zügen und Hotels an KI abgeben.
+U116,T20,P13,wunsch,programmieren,coaching,,keine,software,Eine Person möchte für die Arbeit mit Kunden eine Schnitzeljagd oder eine kleine Abfrage-App mit KI bauen.
+U117,T20,P06,wunsch,gestalten,bildung,,keine,gestaltung,"Eine Person möchte interaktive Vorträge mit Animationen, Ton und Bildern gestalten."
+U118,T21,P11,gelebt,daten_auswerten,technik,,intern,eigene_daten,Anomalieerkennung in Testdaten aus der Mikrochip-Produktion.
+U119,T21,P11,gelebt,recherchieren,technik,lokales Modell,intern,lokal,Ein Open-Source-Sprachmodell läuft im Haus in einer Sandbox ohne Internet und beantwortet interne Fragen.
+U120,T21,P11,gelebt,kommunizieren,technik,,intern,assistenz,"Ein Versuch, KI im Kundenservice einzusetzen, wurde verworfen, weil die Fragen zu komplex sind."
+U121,T21,P08,gelebt,andere,gesundheit,,personenbezogen,transkription,"Die Ärztin berichtet, dass andere Arztpraxen mit KI diktieren und transkribieren."
+U122,T21,P08,wunsch,daten_auswerten,gesundheit,,personenbezogen,eigene_daten,Mit Anomalieerkennung in grossen medizinischen Datenmengen neue Krankheitsbilder finden.
+U123,T21,P08,wunsch,automatisieren,gesundheit,,keine,assistenz,"Online-Kleinanzeigen strukturieren, verwalten und halbautomatisch erneuern."
+U124,T22,P14,gelebt,automatisieren,personal,Notion;n8n,personenbezogen,assistenz,"Rekrutierung mit Datenbanken, Agenten und n8n von der Stellenanalyse über Ausschreibungen bis zum ersten Kontakt mit Bewerbenden."
+U125,T22,P14,gelebt,automatisieren,personal,,personenbezogen,assistenz,Ein Postfach-Agent legt E-Mails ab und schlägt Antworten vor.
+U126,T22,P14,gelebt,automatisieren,personal,,intern,assistenz,"Ein Arbeitsablauf wird eingesprochen, abgelegt und mit neuen Dateien wiederholt."
+U127,T22,P11,gelebt,programmieren,technik,lokales Modell,intern,lokal,Programmieren mit einer lokalen KI im Unternehmen.
+U128,T22,P11,gelebt,planen,technik,ChatGPT,personenbezogen,eigene_daten,Ein Trainingsplan gegen ein langwieriges Fussleiden mit ChatGPT.
+U129,T22,P14,gelebt,daten_auswerten,personal,ChatGPT,personenbezogen,eigene_daten,"Der Personalberater berichtet von einem Freund, dessen eigenes GPT Daten von Ring und Uhr auswertet und tägliche Anweisungen gibt."
+U130,T22,P14,wunsch,planen,personal,,intern,assistenz,Ein Office Organizer im Dashboard soll den Arbeitstag managen.
+U131,T22,P14,wunsch,recherchieren,personal,,personenbezogen,vertrieb,Ein Kandidaten-Radar soll zu offenen Stellen passende Personen etwa auf LinkedIn finden.
+U132,T22,P14,wunsch,recherchieren,personal,,personenbezogen,vertrieb,Für gute Kandidaten aus dem Prozess sollen passende neue Stellen gefunden werden.
+U133,T22,P14,wunsch,schreiben,personal,,keine,gestaltung,"Ein Mediencenter mit Agent soll Social-, Blog- und LinkedIn-Beiträge steuern und Kommentare beantworten."
+U134,T22,P14,wunsch,daten_auswerten,personal,,personenbezogen,eigene_daten,"Ein Gesundheits- und Ernährungsberater ist begonnen, aber noch nicht in Betrieb."
+U135,T22,P11,wunsch,lernen,technik,,keine,sparring,"Verstehen, wie man Agenten aufbaut, etwa durch die Entwicklung eines Spiels."
+U136,T22,P11,wunsch,lernen,technik,ChatGPT;Claude,keine,orientierung,"Zwei kommerzielle Modelle selbst vergleichen, statt Benchmarks zu glauben."
+U137,T23,P11,gelebt,wissen_verwalten,technik,lokales Modell,intern,gedaechtnis,KI-gestützte Suche in der selbst geschriebenen Intranet-Dokumentation mit Zugriffsrechten.
+U138,T23,P11,gelebt,programmieren,technik,lokales Modell,intern,lokal,Programmieren mit dem internen lokalen Modell.
+U139,T23,P11,gelebt,recherchieren,technik,ChatGPT,keine,sparring,Privat ersetzt ChatGPT die Suchmaschine.
+U140,T23,P11,gelebt,planen,technik,ChatGPT,keine,eigene_daten,Privat lässt eine Person Trainingspläne mit ChatGPT erstellen.
+U141,T23,P05,gelebt,recherchieren,coaching,Claude,intern,vertrieb,Ein Vertriebsagent hat eine Wunschkundenliste mit Kriterien und Scoring aufgebaut.
+U142,T23,P05,wunsch,daten_auswerten,coaching,,personenbezogen,vertrieb,"LinkedIn-Kontakte per Download, Matching und Browsersteuerung mit Wunschkunden abgleichen."
+U143,T23,P05,wunsch,automatisieren,coaching,,intern,assistenz,"Für jeden wiederkehrenden Admin-Prozess einen Agenten bauen, der mit dem menschlichen Team zusammenarbeitet."
+U144,T23,P05,wunsch,daten_auswerten,coaching,,intern,planung,Umsatz- und Gesprächsziele wöchentlich und monatlich auswerten und zu Erfolgen ermutigen.
+U145,T23,P11,wunsch,lernen,technik,Claude;ChatGPT;lokales Modell,keine,orientierung,Agenten verstehen und Topmodelle mit dem eigenen lokalen Modell vergleichen.
+U146,T24,P07,gelebt,planen,projektmanagement,Mistral,intern,planung,Mit Konnektoren und Skills Teams und Kapazitäten für Projekte über den Kalender planen.
+U147,T24,P07,gelebt,automatisieren,projektmanagement,,intern,planung,Eine Ressourcen-Integration mit einem Demand-Management-Tool ist im Aufbau.
+U148,T24,P11,gelebt,programmieren,technik,lokales Modell,intern,lokal,"Ein lokales Open-Source-Modell auf einem eigenen Server, programmiert wird in einer Sandbox."
+U149,T24,P11,gelebt,wissen_verwalten,technik,lokales Modell,intern,gedaechtnis,Ein interner Chatbot für Dokumentation mit Zugriffsrechten ist in Entwicklung.
+U150,T24,P11,gelebt,planen,technik,ChatGPT,personenbezogen,eigene_daten,Eine langwierige Entzündung mit ChatGPT besprechen und einen Reha-Plan erstellen lassen.
+U151,T24,P07,gelebt,recherchieren,projektmanagement,,personenbezogen,eigene_daten,Der Projektmanager hat für die gesundheitlichen Themen seines Bruders mit KI Informationen gesammelt.
+U152,T24,P07,gelebt,andere,projektmanagement,Granola;Copilot,intern,transkription,Gespräche mit Granola aufnehmen und Copilot als Facilitator nutzen.
+U153,T24,P07,wunsch,andere,projektmanagement,,keine,sparring,Als Projektmanager die eigenen Skills mit KI-Unterstützung professioneller einbringen.
+U154,T24,P07,wunsch,andere,projektmanagement,,keine,orientierung,"Eine Entscheidungshilfe, welches KI-Tool in welcher Situation mit welchen Daten passt."
+U155,T24,P07,wunsch,andere,projektmanagement,lokales Modell,keine,lokal,"Eine eigene KI zu Hause, bisher nur angedacht."
+U156,T25,P09,gelebt,gestalten,medien,,keine,gestaltung,"Der Marketingverantwortliche berichtet, dass Werbeagenturen KI für Bildgenerierung und Texte in der Kreation nutzen."
+U157,T25,P09,gelebt,andere,medien,ChatGPT,personenbezogen,sparring,"Der Marketingverantwortliche berichtet von einer Notaufnahme, die KI zur Diagnoseunterstützung einsetzt."
+U158,T25,P08,gelebt,andere,gesundheit,,personenbezogen,transkription,Die Ärztin berichtet von Spracherkennung und Transkription in manchen Arztpraxen.
+U159,T25,P09,wunsch,recherchieren,medien,,intern,sparring,"Marktforschung und Konkurrenzbeobachtung zur Marke, auch auf Social Media mit einer Alarmfunktion bei Stichworten."
+U160,T25,P08,wunsch,schreiben,gesundheit,,personenbezogen,transkription,"Das Arztgespräch mitschreiben lassen und daraus Brief, ICD-Codes und Medikamentenplan erzeugen."
+U161,T25,P08,wunsch,automatisieren,gesundheit,,keine,assistenz,"Online-Kleinanzeigen halbautomatisch erstellen, bepreisen, erneuern und im Überblick halten."
+U162,T26,P07,gelebt,recherchieren,projektmanagement,Gemini,personenbezogen,dokumente,Arztbriefe und Medikamente des Bruders mit Gemini gegenchecken und mit gesundem Menschenverstand prüfen.
+U163,T26,P07,gelebt,programmieren,projektmanagement,Claude;Lovable,personenbezogen,software,"Mit Claude eine Ernährungs-App und einen Trainingsplan bauen, die ein bezahltes Abo ersetzen."
+U164,T26,P07,gelebt,planen,projektmanagement,Mistral;Outlook;Teams,intern,planung,"Ein Mistral-Connector verbindet Kalender, Ressourcendatei und Demand-Prozess, um über Projekte zu entscheiden."
+U165,T26,P07,gelebt,andere,projektmanagement,Copilot,intern,orientierung,Bei Kunden muss mit Copilot als offizieller KI gearbeitet werden.
+U166,T26,P07,wunsch,recherchieren,projektmanagement,,keine,orientierung,"Ein wöchentlicher Bericht darüber, was sich bei den KI-Tools geändert hat, was neu ist und was wegfällt."
+U167,T26,P07,wunsch,planen,projektmanagement,,intern,planung,Die Arbeit als Projektmanager mit KI im Alltag professioneller machen und entlasten.
+U168,T26,P07,wunsch,automatisieren,projektmanagement,,intern,planung,Ein Dashboard schickt dem Ops-Team Benachrichtigungen zu Kunden-Tickets.
+U169,T26,P07,wunsch,andere,projektmanagement,,keine,orientierung,Eine klare KI-Strategie der Firma gegenüber Kunden.

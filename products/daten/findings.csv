@@ -1,0 +1,637 @@
+finding_id,transcript_id,speaker_id,question,subtype,theme_code,summary,quote,sensitive
+F0001,T03,P02,1,,organisation,,,ja
+F0002,T03,P02,1,,datenschutz,"Datenschutz wird nach Gefühl beurteilt, mit einer Faustregel, die die Person selbst als Graubereich benennt.",Also es ist so ein Graubereich.,nein
+F0003,T03,P02,1,,unsicherheit,"Abwarten ist eine Strategie: die Person will sich nicht mit der Konsole abmühen und hofft, dass die Werkzeuge einfacher werden.",ich muss mich nicht mit der Konsole quälen. Ich warte einfach.,nein
+F0004,T03,P01,1,,jobs,,,ja
+F0005,T03,P01,1,,kompetenz,"Dazu kommt Sorge um Studierende, die mit KI grundlegende Fähigkeiten überspringen.","gar nicht mehr die Zeit oder Motivation haben, noch grundlegende Sachen zu lernen",nein
+F0006,T03,P02,1,,kompetenz,"Beide Gesprächspartner teilen ein Unbehagen darüber, dass sie sich weniger merken und eigenes Wissen verlieren.",merke ich mir natürlich noch viel weniger Dinge,nein
+F0007,T03,P01,2,,jobs,,,ja
+F0008,T03,P02,2,,datenschutz,"Wer die Verantwortung trägt, wenn sensible Daten in den Graubereich geraten, fragt niemand nach.",,nein
+F0009,T03,P02,2,,pruefen,"Ob KI-Ergebnisse ohne systematische Prüfung verlässlich sind, bleibt offen, denn die frühere systematische Kontrolle eines Kollegen kann die Person nicht nachbauen.","Das wäre jetzt was, was ich noch nicht könnte.",nein
+F0010,T03,P01,2,,jobs,,,ja
+F0011,T03,P02,3,offen,organisation,,,ja
+F0012,T03,P02,3,offen,unsicherheit,Die technische Oberfläche der Konsole schreckt ab.,Also ich will nicht komische Backslashes und Doppelpunkte machen.,nein
+F0013,T03,P02,3,offen,pruefen,Aus Sorge vor Fehlern in KI-Ergebnissen werden Stichproben gemacht.,"ich muss schon immer nochmal kontrollieren, also Stichproben machen zumindest",nein
+F0014,T03,P01,3,offen,mensch,"Eine Person fürchtet den Verlust von Ton und Persönlichkeit in E-Mails und ärgert sich über KI-Zusammenfassungen, aus denen der Punkt nicht hervorgeht.","dann möchte ich, dass meine E-Mail ich bleibe.",nein
+F0015,T03,P02,3,versteckt,kompetenz,"Unterschwellig zeigt sich Angst, Gedächtnis und Fachwissen zu verlieren, wenn alles nachfragbar ist.",da kann ich alles nachher nochmal fragen,nein
+F0016,T03,P02,3,versteckt,datenschutz,Unsicherheit beim Datenschutz wird in ein vereinfachtes Erklärmodell verpackt.,aber für Dummies erklärt war es quasi so,nein
+F0017,T03,P02,4,gelebt,datenschutz,,,ja
+F0018,T03,P02,4,gelebt,werkzeuge,"Die KI arbeitet in freigegebenen Ordnern, baut eine Vorlage nach und legt das Ergebnis dort ab.","Also ich habe Ordner freigegeben auf meinem Rechner, in die die KI das legen darf.",nein
+F0019,T03,P02,4,gelebt,werkzeuge,E-Mails werden mit Copilot geschrieben und ins Englische übersetzt.,,nein
+F0020,T03,P01,4,gelebt,begeisterung,"Eine Person führt sieben Jahre Notizen als persönliches Wissenssystem, das mit Claude gepflegt wird.",Ich habe jetzt sieben Jahre Notizen.,nein
+F0021,T03,P02,4,wunsch,begeisterung,"Gewünscht ist ein Assistent mit Gedächtnis über alle Projekte, der Zettel, Sprachnachrichten und Mails sammelt und aufbereitet.",Slash Gedächtnis.,nein
+F0022,T03,P02,4,wunsch,werkzeuge,Die Person möchte Copilot besser nutzen können.,"Das würde mich auch interessieren, da einfach ein bisschen mehr mitmachen zu können.",nein
+F0023,T03,P02,4,wunsch,pruefen,"Gewünscht ist eine Versionierung von KI-Ergebnissen, um zu einer früheren Fassung zurückzuspringen.",,nein
+F0024,T03,P01,4,wunsch,begeisterung,"Eine Person möchte ein System für Newsletter und Blog, das aus ihren Ideen Texte macht.",Jetzt brauche ich nur noch meine Ideen,nein
+F0025,T03,P02,4,buendelbar,begeisterung,Der gewünschte Assistent mit Gedächtnis und das bestehende persönliche Wissenssystem folgen demselben Ansatz: ein Ordner mit Dateien und eine Oberfläche darauf.,Das ist nur ein Ordner mit Dateien.,nein
+F0026,T03,P02,4,buendelbar,pruefen,"Das Prüfen von KI-Ergebnissen durch Stichproben, Versionierung und Nachvollziehbarkeit betrifft die Büroarbeit ebenso wie die Lehre.",,nein
+F0027,T03,P01,5,,jobs,,,ja
+F0028,T03,P02,5,,pruefen,"Wie prüfen wir KI-Ergebnisse, wenn wir den Code dahinter nicht lesen können?",,nein
+F0029,T03,P02,5,,kompetenz,"Was müssen wir selbst noch wissen und können, wenn die KI alles nachschlagen kann?",,nein
+F0030,T03,P02,5,,unsicherheit,"Wie kommen Menschen ohne IT-Hintergrund zu Agenten, ohne an der Konsole zu scheitern?",,nein
+F0031,T03,P01,5,,mensch,"Wie bleiben E-Mails und Entscheidungen menschlich, wenn alle nur noch Zusammenfassungen lesen?",,nein
+F0032,T03,P02,6,,unsicherheit,"Motto: sich nicht mit der Konsole abmühen und abwarten, bis die Werkzeuge einfacher werden.",ich muss mich nicht mit der Konsole quälen. Ich warte einfach.,nein
+F0033,T03,P01,6,,kompetenz,Motto: Grundlagen und KI braucht es zusammen.,Es braucht beides zusammen,nein
+F0034,T04,P03,1,,unsicherheit,"Eine Person rahmt ihre Experimente klein, obwohl ihr Anspruch an die Ergebnisse höher ist, als sie zugibt.",Und es war so lala.,nein
+F0035,T04,P03,1,,belastung,"Viel KI-Nutzung braucht einen Ausgleich durch Sport, was auf eine Belastung durch die Arbeit mit KI hindeutet.","Je mehr KI's nutze, desto mehr Sport mache ich.",nein
+F0036,T04,P03,1,,mensch,,,ja
+F0037,T04,P01,1,,pruefen,"Eine Person sorgt sich, wie sie die Arbeit hinter einem Ergebnis noch belegen kann, wenn ein Artikel in einem Tag entsteht.","dann muss ich irgendwie zeigen können, das hat aber ein Jahr gedauert",nein
+F0038,T04,P03,1,,mensch,Eine öffentlich sichtbare Person will authentisch und kritisch wirken und grenzt sich von reinem KI-Enthusiasmus ab.,"Ich glaube, das Authentische ist für mich total wichtig.",nein
+F0039,T04,P03,2,,datenschutz,,,ja
+F0040,T04,P03,2,,kompetenz,"Das Bild vom Berg, den man mit der Drohne statt zu Fuß erreicht, bleibt für die eigene Arbeit ohne Antwort.",Und jetzt fliegen sie alle mit der Drohne hoch.,nein
+F0041,T04,unklar,2,,ressourcen,"Der Ressourcenverbrauch wird angesprochen und dann mit anderen Konsumgütern relativiert, der eigene Verbrauch durch viele Experimente bleibt offen.","jedes Mal, wenn man eine Jeans kauft",nein
+F0042,T04,P03,3,offen,ressourcen,Unnötige Bildgenerierung wird als Ressourcenverschwendung kritisiert.,"nur weil ich es kann, ist es nicht unbedingt sinnvoll",nein
+F0043,T04,P03,3,offen,ressourcen,"Es gibt Sorge vor Kontrollverlust bei Kosten und Rechenzeit, daher ein festes kleines Budget.","Und ich wollte nicht, dass er 19 Stunden lang rechnet",nein
+F0044,T04,unklar,3,offen,werkzeuge,Die Abhängigkeit von großen Anbietermodellen weckt den Wunsch nach Open-Source-Modellen auf dem eigenen Rechner.,Idealerweise würde ich gerne im nächsten Schritt mit Open Source arbeiten.,nein
+F0045,T04,P03,3,offen,gesellschaft,,,ja
+F0046,T04,P01,3,versteckt,pruefen,"Unterschwellig zeigt sich Angst, dass die eigene Leistung nicht mehr belegbar ist.",das hat aber ein Jahr gedauert und nicht einen Tag,nein
+F0047,T04,P01,3,versteckt,gesellschaft,"Es klingt Sorge vor Anfeindungen durch KI-Skeptiker an, die Inhalte als KI-Müll abtun.","das ist ja alles KI-Müll, was du machst",nein
+F0048,T04,P03,4,gelebt,begeisterung,"Claude Code steuert über eine API-Plattform Video-, Bild-, Musik- und Stimmgeneratoren mit Storyboard und Feedback-Schleife.",Claude Code als Orchestrator zu verwenden. In einem Budget unterhalb von 10 Dollar.,nein
+F0049,T04,P03,4,gelebt,begeisterung,,,ja
+F0050,T04,P03,4,gelebt,datenschutz,,,ja
+F0051,T04,P03,4,gelebt,begeisterung,,,ja
+F0052,T04,P03,4,gelebt,begeisterung,,,ja
+F0053,T04,P01,4,gelebt,begeisterung,,,ja
+F0054,T04,P01,4,wunsch,begeisterung,,,ja
+F0055,T04,unklar,4,wunsch,werkzeuge,Beide möchten lokale Open-Source-Modelle für eigene Anwendungen nutzen.,Aber es reicht ja vielleicht für die Anwendung.,nein
+F0056,T04,P01,4,wunsch,datenschutz,,,ja
+F0057,T04,P03,4,buendelbar,datenschutz,,,ja
+F0058,T04,unklar,4,buendelbar,werkzeuge,Den Wunsch nach lokalen Open-Source-Modellen teilen beide.,,nein
+F0059,T04,P01,5,,pruefen,"Wie belegen wir den Weg zu einem Ergebnis, wenn KI das Ergebnis in kurzer Zeit liefert?",,nein
+F0060,T04,P03,5,,datenschutz,"Welche persönlichen Daten geben wir an KI-Dienste, und wo ziehen wir die Grenze?",,nein
+F0061,T04,P03,5,,mensch,Wann holen wir uns bewusst einen Menschen mit Fachwissen dazu?,,nein
+F0062,T04,P01,5,,gesellschaft,Wie sprechen wir über KI zwischen den Polen alles super und alles Müll?,,nein
+F0063,T04,P03,5,,kompetenz,"Welches Handwerk wollen wir behalten, damit wir den Berg noch selbst hochkommen?",,nein
+F0064,T04,P03,6,,ressourcen,"Motto: Nicht alles, was technisch möglich ist, ist auch sinnvoll.","nur weil ich es kann, ist es nicht unbedingt sinnvoll",nein
+F0065,T04,P03,6,,belastung,Motto: Mehr KI-Nutzung verlangt mehr Ausgleich durch Sport.,"Je mehr KI's nutze, desto mehr Sport mache ich.",nein
+F0066,T05,P01,1,,mensch,"Die Frage nach dem eigenen Wert zieht sich durch: was Menschen noch beitragen, wenn die Maschine vieles übernimmt.",was tragen wir als Mensch überhaupt noch dazu bei?,nein
+F0067,T05,P04,1,,jobs,,,ja
+F0068,T05,P01,1,,jobs,,,ja
+F0069,T05,P04,1,,unsicherheit,,,ja
+F0070,T05,unklar,1,,organisation,"Es gibt Unbehagen über Unternehmen, die KI ohne klares Ziel einführen.","Und leider, ich finde leider so ein bisschen ohne eigentliches Ziel.",nein
+F0071,T05,unklar,2,,jobs,,,ja
+F0072,T05,P01,2,,jobs,,,ja
+F0073,T05,P01,2,,mensch,"Wer an Ansehen verliert, wenn ein wissenschaftlicher Artikel in einem Tag machbar ist, bleibt als Frage im Raum.",genau der ist jetzt in einem Tag machbar,nein
+F0074,T05,P01,3,offen,mensch,"Es gibt Sorge vor Sinnverlust in der Wissenschaft, wenn Anträge und Artikel von der Maschine kommen können.","die Proposal schreiben, die Förderanträge, die Papiere",nein
+F0075,T05,P01,3,offen,gesellschaft,"Die Gesellschaft könnte Vertrauen in Forschung verlieren, wenn jeder dasselbe in wenigen Stunden kann.",verliert man noch mehr Vertrauen in die Wichtigkeit,nein
+F0076,T05,P04,3,offen,kompetenz,,,ja
+F0077,T05,unklar,3,offen,mehrarbeit,"Informationsüberflutung führt dazu, dass niemand mehr hinschaut und alles an Wert verliert.",niemand schaut sich das mehr an und alles wird irgendwie wertlos,nein
+F0078,T05,unklar,3,offen,unsicherheit,Der Name Claude Code schreckt Menschen ohne IT-Hintergrund ab.,"Ich finde es so schade, dass die das Wort Code im Claude mit drin haben.",nein
+F0079,T05,P01,3,versteckt,unsicherheit,"Unterschwellig zeigt sich die Angst, am Retreat dazusitzen und nichts machen zu können.","Nicht, dass ich nachher da sitze und kann gar nichts machen.",nein
+F0080,T05,P01,4,gelebt,werkzeuge,"Eine Person installiert mit Hilfe von Claude Code lokale Modelle, die für ihr Vorhaben aber zu langsam sind.","Das macht Claude Code für mich, das aufzubauen",nein
+F0081,T05,P04,4,gelebt,begeisterung,,,ja
+F0082,T05,P04,4,gelebt,begeisterung,"Claude und ChatGPT dienen als Sparringspartner für Workshop-Ideen, gezielt mit der Bitte um neue Vorschläge.",hast du mal einen neuen Vorschlag?,nein
+F0083,T05,P01,4,gelebt,begeisterung,In einer Workshop-Übung entsteht aus dem eigenen Lebenslauf eine Tabelle und daraus eine datengetriebene Webseite.,Die Leute bringen ihren CV mit.,nein
+F0084,T05,P04,4,wunsch,begeisterung,"Skillsets sollen Folien im Design der Kooperationspartner erstellen, damit das mühsame Gestalten von Folien entfällt.",mich nervt dieses Powerpoint-Gemal,nein
+F0085,T05,P04,4,wunsch,mensch,"Ein Agent soll Ton, Haltung und Interventionen der Person kennen und bei Workshops helfen.","Sie kennt meinen Ton, sie kennt meine Einstellung zu Menschen",nein
+F0086,T05,P01,4,wunsch,werkzeuge,Lokale Modelle sollen irgendwann stark genug für die eigene Arbeit sein.,"dass wir irgendwann Modelle haben, die stark genug sind, für uns lokal arbeiten zu können",nein
+F0087,T05,P04,4,buendelbar,begeisterung,"Workshop-Vorbereitung mit KI verbindet beide, die viele Workshops geben und zu viele Vorschläge auf die verfügbare Zeit abstimmen müssen.",,nein
+F0088,T05,P04,4,buendelbar,werkzeuge,Folien und Dokumente im Design verschiedener Auftraggeber decken sich mit dem Wunsch einer anderen Teilnehmerin nach automatischer Präsentationserstellung.,,nein
+F0089,T05,P01,4,buendelbar,begeisterung,Eine persönliche Webseite oder ein Lebenslauf eignet sich als Einstiegsprojekt für Menschen ohne IT-Hintergrund.,,nein
+F0090,T05,P01,5,,mensch,"Was tragen wir als Menschen noch bei, wenn die Maschine Texte, Anträge und Folien schreibt?",,nein
+F0091,T05,unklar,5,,jobs,,,ja
+F0092,T05,P04,5,,kompetenz,Was sollen Kinder und Studierende noch selbst lernen?,,nein
+F0093,T05,unklar,5,,unsicherheit,Wie kommen Menschen ohne IT-Hintergrund über die Hemmschwelle Code hinweg?,,nein
+F0094,T05,P01,5,,belastung,"Wo ist im Workshop Raum, nicht die ganze Zeit aktiv zu sein?","Wo ist denn noch Raum, nicht die ganze Zeit aktiv zu sein?",nein
+F0095,T05,P04,6,,mensch,Motto: voll als Mensch da sein.,voll als Mensch da bin,nein
+F0096,T05,P01,6,,mensch,"Motto: die Frage, was Menschen überhaupt noch beitragen.",was tragen wir als Mensch überhaupt noch dazu bei?,nein
+F0097,T06,P09,1,,begeisterung,"Stolz und Unruhe zugleich: was früher Zeichner skizziert haben, liefert die KI in Minuten.",Das ist schon ziemlich krass.,nein
+F0098,T06,P09,1,,jobs,,,ja
+F0099,T06,P09,1,,jobs,,,ja
+F0100,T06,P09,1,,jobs,,,ja
+F0101,T06,P09,2,,jobs,,,ja
+F0102,T06,P09,2,,jobs,,,ja
+F0103,T06,P09,3,versteckt,jobs,,,ja
+F0104,T06,P09,3,offen,organisation,"Es fehlen Kapazitäten, um die Möglichkeiten in digitalen Kanälen zu nutzen.","Aber du brauchst halt die Kappas, das zu machen.",nein
+F0105,T06,P09,3,offen,automatisierung,Ohne gute Steuerung und Auswahl durch Menschen taugt das KI-Ergebnis nichts.,"die das, was aus der KI kommt, optimieren oder auswählen oder bewerten",nein
+F0106,T06,P09,4,gelebt,begeisterung,"Agenturen nutzen KI in der Ideenentwicklung für Bilder, zunehmend Text und erste Videoproduktion.",ob das jetzt Bildgenerierung ist oder mittlerweile auch immer mehr Text natürlich,nein
+F0107,T06,P09,4,gelebt,begeisterung,Ideen werden per Spracheingabe in Minuten visualisiert statt von Hand skizziert.,Und heutzutage sprichst du in die KI,nein
+F0108,T06,P09,4,wunsch,begeisterung,"Die ganze Wertschöpfungskette im Marketing soll automatisiert werden, von der Marktforschung bis zum Reporting.","die ganze Wertschöpfungskette, das Marketing zu automatisieren",nein
+F0109,T06,P09,4,wunsch,begeisterung,Kampagnen in digitalen Kanälen sollen laufend optimiert werden.,kannst du natürlich optimieren und lernen ohne Ende,nein
+F0110,T06,P09,4,buendelbar,begeisterung,Reporting und Erfolgsmessung von Kampagnen lassen sich mit anderen Berichts-Anwendungen der Gruppe bündeln.,,nein
+F0111,T06,P09,4,buendelbar,begeisterung,"Arbeit wieder ins Haus zu holen, ähnelt dem Fall einer anderen Person, die eine Agentur durch eigene Entwicklung ersetzt hat.",,nein
+F0112,T06,P09,5,,jobs,,,ja
+F0113,T06,P09,5,,pruefen,"Welche Fähigkeiten braucht es, um KI-Ergebnisse gut zu optimieren, auszuwählen und zu bewerten?",,nein
+F0114,T06,P09,5,,gesellschaft,"Was heißt Demokratisierung für Leute ohne Agenturbudget, und was für die Agenturen selbst?",,nein
+F0115,T06,P09,6,,jobs,,,ja
+F0116,T06,P09,6,,begeisterung,Motto: KI als Demokratisierung.,Demokratisierung ist es.,nein
+F0117,T07,P02,1,,unsicherheit,Eine Person fühlt sich technisch hinter anderen zurück.,"ob ich da nicht noch ein Jahr brauche, bis ich da bin, wo er ist",nein
+F0118,T07,P02,1,,mehrarbeit,"Die Person ist müde davon, ihre Anwendungsfälle immer wieder zu erzählen.",ich habe jetzt schon dreimal erzählt,nein
+F0119,T07,P02,1,,begeisterung,"Eine Excel-Liste als Endergebnis genügt der Person nicht, sie erwartet mehr von KI.",Das muss doch noch weiter gehen.,nein
+F0120,T07,P05,1,,belastung,,,ja
+F0121,T07,P05,1,,organisation,Die Gesprächspartnerin sieht bei der anderen Person die Rolle der dienstbaren Personalerin.,"Aber ich weiß, als H ist man oft so serviceorientiert.",nein
+F0122,T07,P02,1,,werkzeuge,Die fehlende Verbindung zwischen Werkzeugen blockiert stärker als jede Frage zur KI selbst.,weil ich keine Connection habe von meiner Workbench zu Outlook,nein
+F0123,T07,P02,2,,jobs,,,ja
+F0124,T07,P02,2,,kompetenz,,,ja
+F0125,T07,P02,2,,ressourcen,Der Ressourcenverbrauch durch mehr Varianten und Dokumente bleibt unbesprochen.,einen Haufen Papier produziert und einen Haufen Daten verbraten,nein
+F0126,T07,P02,3,offen,jobs,,,ja
+F0127,T07,P02,3,offen,mehrarbeit,,,ja
+F0128,T07,P02,3,offen,pruefen,"Jede Ausgabe muss kontrolliert werden, weil die KI Fehler macht und trotzdem meldet, alles passe.",man muss es noch mal kontrollieren und zwar jedes,nein
+F0129,T07,P02,3,versteckt,unsicherheit,"Unterschwellig zeigt sich Unsicherheit, ob man die Technik je beherrscht.",den kann ich aber noch quasi gar nicht bedienen,nein
+F0130,T07,P05,3,versteckt,automatisierung,"Eine Person sorgt sich, mit Automatisierung persönliche Kontakte zu verlieren, und betont, dass es keine Kaltakquise sei.",das ist nichts mit Kaltakquise,nein
+F0131,T07,P05,4,gelebt,begeisterung,Eine Person hat in drei Stunden einen Vertriebsagenten mit Wunschkunden-Kriterien und Clustering gebaut.,Ich habe das innerhalb von drei Stunden diese Woche aufgebaut,nein
+F0132,T07,P02,4,gelebt,mehrarbeit,,,ja
+F0133,T07,P02,4,gelebt,datenschutz,,,ja
+F0134,T07,P05,4,wunsch,begeisterung,,,ja
+F0135,T07,P05,4,wunsch,begeisterung,Bahnrechnungen sollen jeden Monat automatisch für die Buchhaltung gesammelt werden.,Kostet mich immer eine halbe Stunde,nein
+F0136,T07,P02,4,wunsch,begeisterung,"Ein eigener Assistent soll Mails, Sprachnachrichten und fotografierte Notizen den Projekten zuordnen und offene Aufgaben melden.","ich möchte quasi meinen eigenen Assistenten, den ich mit allem füttern kann",nein
+F0137,T07,P02,4,wunsch,werkzeuge,,,ja
+F0138,T07,P05,4,buendelbar,werkzeuge,Browsersteuerung für wiederkehrende Klickarbeit und fehlende Konnektoren lösen dasselbe Problem: Daten von einem System ins andere bringen.,,nein
+F0139,T07,P02,4,buendelbar,begeisterung,"Assistent mit Gedächtnis und Vertriebsagent als Antreiber lassen sich zu einem persönlichen Agenten bündeln, der nachfragt und erinnert.",,nein
+F0140,T07,P02,5,,organisation,"Wofür setzen wir gewonnene Zeit ein, und wer entscheidet das?",,nein
+F0141,T07,P02,5,,mehrarbeit,"Wann erzeugt KI Mehrarbeit, weil plötzlich mehr Varianten verlangt werden?",,nein
+F0142,T07,P05,5,,werkzeuge,Was ist schneller: die Lösung mit Medienbruch jetzt abschicken oder auf das bessere Werkzeug warten?,,nein
+F0143,T07,P05,5,,automatisierung,"Wie bleiben Kontakte persönlich, wenn Auswahl und Anschreiben automatisiert sind?",,nein
+F0144,T07,P05,5,,unsicherheit,"Wie schätzen Einsteigerinnen und Einsteiger ein, was an einem Wochenende lernbar ist?",,nein
+F0145,T07,P05,6,,begeisterung,Motto: einen Agenten zu bauen ist kein Hexenwerk.,wirklich kein Hexenwerk,nein
+F0146,T07,P05,6,,belastung,"Motto: Abkürzungen, weil der Vertrieb anstrengend geworden ist.",ich brauche Shortcuts,nein
+F0147,T08,P12,1,,unsicherheit,Eine Person fühlt sich technisch unsicher und sucht Bestätigung.,"Das ist ja so Skills, die man wissen muss.",nein
+F0148,T08,P12,1,,begeisterung,"Die Person denkt Dinge meist fertig, bevor sie fragt, und die KI hat ihr geraten, sie früher in den Prozess einzubeziehen.",du musst nicht immer schon was zu Ende denken,nein
+F0149,T08,P05,1,,belastung,,,ja
+F0150,T08,P12,1,,mehrarbeit,Die Vorbereitung auf das Retreat lief neben dem Alltag her und wurde kurz vorher nachgeholt.,Habe ganz gestern ganz viel aufgeholt.,nein
+F0151,T08,P05,2,,automatisierung,"Eine Person möchte Kontakte per KI ansprechen, während sich alle über KI-generierte Akquise-Mails ärgern, der Widerspruch wird nur gestreift.","Ne, das würde ich nicht machen.",nein
+F0152,T08,P05,2,,datenschutz,,,ja
+F0153,T08,P12,2,,werkzeuge,,,ja
+F0154,T08,P12,3,offen,pruefen,"Beim Dokumentenabgleich hat die KI Punkte interpretiert, die so nicht im Dokument stehen, was in einer Kundenantwort peinlich wäre.",Es steht da aber gar nicht so wörtlich,nein
+F0155,T08,P12,3,offen,pruefen,"Eine Person zweifelt, ob KI gut priorisieren kann.","ich bin auch bezweifelnd, dass die KI wirklich gut priorisieren kann",nein
+F0156,T08,P05,3,offen,datenschutz,,,ja
+F0157,T08,P12,3,offen,mensch,KI macht Texte zu glatt und unpersönlich.,"es macht es zu glatt, zu schleimig und nicht persönlich",nein
+F0158,T08,P12,3,versteckt,mehrarbeit,Unterschwellig zeigt sich Überforderung durch die Fülle möglicher Anwendungen.,"ich sehe aber noch 100 Sachen, die ich eigentlich auch alle mit KI lösen will",nein
+F0159,T08,P12,4,gelebt,werkzeuge,E-Mails werden selbst vorgeschrieben und von Copilot geglättet.,Ich schreibe selber vor und dann sage ich bitte noch mal besser formulieren.,nein
+F0160,T08,P05,4,gelebt,begeisterung,"Ein Agent mit Rolle, Ziel und Ordnerzugriff erzeugt in Claude Cowork Word-, PDF- und Excel-Dateien.",Und das ist mega zeitersparend für mich.,nein
+F0161,T08,unklar,4,gelebt,begeisterung,Rechnungen und Angebote entstehen über einen Skill mit Logo und gleichbleibendem Design.,Das ist super praktisch.,nein
+F0162,T08,P05,4,gelebt,begeisterung,"Ein Verkaufsexperten-Agent kennt eine Wunschkundenliste nach Branche, Region, Größe und Familienfreundlichkeit.",,nein
+F0163,T08,P05,4,gelebt,begeisterung,Als Einstieg lässt man sich zuerst von der KI interviewen.,Interview mich erstmal.,nein
+F0164,T08,P12,4,wunsch,werkzeuge,Eine Person möchte eine Prompt-Sammlung und Copilot-Agenten für wiederkehrende Aufgaben anlegen.,"Das will ich mal verstehen, was der Agent eigentlich ist.",nein
+F0165,T08,P12,4,wunsch,begeisterung,,,ja
+F0166,T08,P12,4,wunsch,begeisterung,Jeden Morgen sollen Postfach und Aufgabenplaner ausgewertet und die Aufgaben priorisiert werden.,"Jede früh um 8 Uhr, schau mal in mein E Mail Fach",nein
+F0167,T08,P05,4,wunsch,datenschutz,,,ja
+F0168,T08,unklar,4,buendelbar,begeisterung,"Wiederkehrende Aufgaben als Vorlage, Skill oder Agent zu speichern, ist bei verschiedenen Werkzeugen dasselbe Muster.","alles, was du mehr als zweimal machen musst, lohnt sich",nein
+F0169,T08,unklar,4,buendelbar,datenschutz,,,ja
+F0170,T08,unklar,4,buendelbar,pruefen,Anweisungen gegen Halluzinationen sind ein gemeinsamer Baustein.,"interpretiere nichts, denk dir nicht aus, halluziniere nichts",nein
+F0171,T08,P12,5,,werkzeuge,"Was ist der Unterschied zwischen Prompt-Vorlage, Skill und Agent, und wann lohnt sich welcher?",,nein
+F0172,T08,P05,5,,datenschutz,"Welche personenbezogenen Daten dürfen wir in welches Werkzeug geben, und wer sagt uns die Regeln?",,nein
+F0173,T08,P12,5,,automatisierung,"Wie nutzen wir KI im Vertrieb, ohne selbst die glatten Mails zu verschicken, die uns stören?",,nein
+F0174,T08,P12,5,,pruefen,"Wie bringen wir der KI bei, nur zu belegen und nichts zu erfinden?",,nein
+F0175,T08,P12,5,,mehrarbeit,"Mit welcher einen Sache fangen wir an, wenn wir hundert Ideen haben?",,nein
+F0176,T08,unklar,6,,begeisterung,"Motto: alles, was man mehr als zweimal macht, lohnt sich als Vorlage anzulegen.","alles, was du mehr als zweimal machen musst, lohnt sich",nein
+F0177,T08,P05,6,,begeisterung,Motto: sich zuerst von der KI interviewen lassen.,Interview mich erstmal.,nein
+F0178,T09,P04,1,,unsicherheit,"Eine Person befürchtet, in der Gruppe am wenigsten Erfahrung mit KI zu haben.","Angst, dass ich hier die wo du am wenigsten arbeite mit Ki bisher",nein
+F0179,T09,P04,1,,mensch,Beide Personen wollen die Inhalte selbst behalten und nur die Fleißarbeit an KI abgeben.,inhaltlich möchte ich das auch gar nicht abgeben,nein
+F0180,T09,P12,1,,organisation,"Eine Person arbeitet allein und remote an ihrem Thema, KI soll ein Stück fehlendes Team ersetzen.",,nein
+F0181,T09,P12,1,,belastung,Das Reden beim Wandern empfindet eine Person als anstrengend.,beim Wandern reden auch irgendwie gar nicht so einfach,nein
+F0182,T09,P12,1,,begeisterung,"Eine Person freut sich, dass sie durch die Hausaufgaben über Nacht etwas Neues zur KI gelernt hat.",das habe ich schon von gestern auf heute irgendwie gelernt,nein
+F0183,T09,P12,2,,aufnahmen,"Dass am Retreat alle alles aufnehmen und damit ihre Stimme an Firmen geben, betrifft auch diese Aufzeichnung selbst.",weil wir jetzt alle alles aufnehmen,nein
+F0184,T09,P12,2,,ressourcen,Der Widerspruch zwischen Nachhaltigkeitsauftrag und Energieverbrauch von KI wird angesprochen und mit einem Buch beruhigt.,Das finde ich erstmal beruhigend.,nein
+F0185,T09,P12,2,,datenschutz,,,ja
+F0186,T09,P04,3,offen,datenschutz,Eine Person gibt der KI aus Datenschutzgründen keinen Zugriff auf ihre E-Mails.,Sie hat auch gar nichts Zugriff.,nein
+F0187,T09,P12,3,offen,datenschutz,,,ja
+F0188,T09,P12,3,offen,ressourcen,"Eine Person sorgt sich um den Energie- und Datenverbrauch von KI, besonders beim Transkribieren und Zusammenfassen von Ton.","Das ist ja mega, mega viel Daten und Energie.",nein
+F0189,T09,P12,3,offen,kompetenz,"Eine Person befürchtet, dass Kompetenzen wie das Herausfiltern der Essenz schwächer werden.","Ich glaube, Kompetenzen verändern sich.",nein
+F0190,T09,P12,3,offen,aufnahmen,Mit den Aufnahmen geben die Teilnehmenden ihre Stimme an Firmen ab.,wir verkaufen jetzt auch unsere Stimme,nein
+F0191,T09,P12,3,versteckt,unsicherheit,Die eigene KI- und Excel-Kompetenz wird als nicht ausreichend erlebt.,mit Excel habe ich gar nicht so viel Skills,nein
+F0192,T09,P04,4,gelebt,begeisterung,Eine Person nutzt ChatGPT als Sparringspartner und für die Trainingsentwicklung.,,nein
+F0193,T09,P04,4,gelebt,begeisterung,,,ja
+F0194,T09,P04,4,gelebt,werkzeuge,Eine Person hat erste Folienvorlagen als Skillset hochgeladen.,Da muss man halt so eine Vorlage hochladen.,nein
+F0195,T09,P12,4,gelebt,begeisterung,"Eine Person lässt E-Mails überarbeiten, damit sie übersichtlicher werden.",,nein
+F0196,T09,P12,4,gelebt,begeisterung,"Eine Person hat gelernt, dass die KI ihr hilft, die Aufgabe selbst zu formulieren und die Schritte durchzugehen.",Und hilf mir die Schritte durchzugehen.,nein
+F0197,T09,P04,4,wunsch,automatisierung,Folien und Arbeitsblätter sollen automatisch im Design der jeweiligen Kunden entstehen.,dass mich da nicht mehr drum kümmern muss,nein
+F0198,T09,P04,4,wunsch,automatisierung,"KI soll als Assistenz vom ersten Kundengespräch bis zur Workshop-Entwicklung begleiten, inhaltlich bleibt es bei der Person.",vom ersten Kundengespräch bis zur Workshop-Entwicklung,nein
+F0199,T09,P12,4,wunsch,pruefen,,,ja
+F0200,T09,P12,4,wunsch,datenschutz,,,ja
+F0201,T09,P12,4,wunsch,datenschutz,"Die KI soll Excel-Formeln zum Verknüpfen von Tabellen liefern, ohne dass Kundendaten eingegeben werden.",wie verknüpft man zwei Sheets?,nein
+F0202,T09,P04,4,buendelbar,automatisierung,Präsentationen im Corporate Design anderer wünschen sich beide Personen hier und eine weitere Person in einem anderen Gespräch.,,nein
+F0203,T09,P12,4,buendelbar,pruefen,Der Abgleich von Dokumenten mit eigenen Standards ist verwandt mit dem Verknüpfen von Daten in Excel.,,nein
+F0204,T09,P12,4,buendelbar,datenschutz,Nur Struktur und Formeln aus der KI holen und sensible Daten draußen lassen passt zur Lage einer Ärztin in anderen Gesprächen.,,nein
+F0205,T09,P12,5,,kompetenz,"Welche Kompetenzen wollen wir behalten, etwa die Essenz selbst herausarbeiten statt alles transkribieren zu lassen?",,nein
+F0206,T09,P12,5,,ressourcen,"Steht der Energieverbrauch unserer KI-Nutzung, auch am Retreat, im Verhältnis zum Nutzen?",,nein
+F0207,T09,P12,5,,aufnahmen,"Wem geben wir unsere Stimme und unsere Daten, und was bleibt beim Menschen?",,nein
+F0208,T09,P12,5,,datenschutz,"Welche Tools dürfen wir mit Firmendaten nutzen, und wie bekommen wir Hilfe, ohne Daten preiszugeben?",,nein
+F0209,T09,P12,5,,belastung,"Welche Gesprächsformate passen für Menschen, denen Reden beim Wandern schwerfällt?",,nein
+F0210,T09,P04,6,,mensch,Motto: Die Inhalte bleiben beim Menschen.,dass es inhaltlich bei mir bleibt,nein
+F0211,T09,P12,6,,begeisterung,"Motto: Es reicht, der KI das Ziel zu sagen, den Weg erarbeitet sie mit.","Ich muss eigentlich nur sagen, ich will grundsätzlich.",nein
+F0212,T10,P10,1,,datenschutz,"Eine Person weiß, wie KI funktioniert, darf sie im Beruf aber kaum mit echten Daten nutzen und ist darüber frustriert.","Wie soll ich effektiv arbeiten, wenn ich nicht mit Daten operieren darf?",nein
+F0213,T10,P10,1,,begeisterung,,,ja
+F0214,T10,P16,1,,belastung,,,ja
+F0215,T10,P16,1,,unsicherheit,"Eine Person wertet ihre eigenen planerischen Fähigkeiten ab, KI soll eine gefühlte Schwäche ausgleichen.","meine Stärken liegen woanders. Nicht im strategischen, planvollen Arbeiten.",nein
+F0216,T10,P16,2,,belastung,,,ja
+F0217,T10,P16,2,,belastung,"Offen bleibt, ob das Problem bei Werkzeugen oder bei Auftragslage und Grenzen liegt, denn eine To-do-Liste hat nicht funktioniert.","funktioniert nicht, habe ich schon versucht.",nein
+F0218,T10,P10,2,,datenschutz,"Dass selbst gebaute Tools im Krankenhausumfeld Fragen nach Haftung, Datenschutz und Wartung aufwerfen, wird bei aller Begeisterung nicht angesprochen.",,nein
+F0219,T10,P10,3,offen,datenschutz,"Datenschutz-Grundverordnung und der Status als kritische Infrastruktur blockieren die Arbeit mit echten Daten, die Verantwortung liegt beim Nutzer.",die Datenschutzgrundverordnung und der Status als kritische Infrastruktur knocken uns einfach aus,nein
+F0220,T10,P10,3,offen,datenschutz,Platzhalter statt echter Daten gelten nur als Notlösung.,"Platzhalter sind eine Lösung, aber die kleinste mögliche Nennerlösung, die es gibt.",nein
+F0221,T10,P10,3,offen,automatisierung,Buchhaltung mit KI zu verknüpfen gilt als zu komplex.,aus meiner Sicht tatsächlich der Endgegner,nein
+F0222,T10,P16,3,versteckt,unsicherheit,"Eine Person weiß nicht, was mit KI überhaupt möglich ist.","das weiß ich nicht, was möglich ist.",nein
+F0223,T10,P10,4,gelebt,begeisterung,"Eine Person lässt problematische Mails aus einem kurzen Umriss entwerfen, überarbeitet sie und spart so etwa zwei Drittel der Zeit.",spare ich zwei Drittel Zeit ein,nein
+F0224,T10,P10,4,gelebt,begeisterung,Eine Person nutzt KI für Textzusammenfassungen und Bildgenerierung in der Ausbildung.,Bilder spielen in der Ausbildung immer eine große Rolle.,nein
+F0225,T10,P10,4,gelebt,begeisterung,,,ja
+F0226,T10,P10,4,wunsch,automatisierung,Die Einsatzplanung der Auszubildenden in Krankenhausabteilungen mit vielen Variablen soll mit KI gelingen.,Ist der administrative Overkill,nein
+F0227,T10,P16,4,wunsch,automatisierung,"Ein Assistent soll Kalender, Mails und Buchhaltung verknüpfen und an Vorbereitungsschritte für Aufträge erinnern.","Eine Verknüpfung von Kalender, Mails und wenn möglich sogar Buchhaltungsprogramm",nein
+F0228,T10,P16,4,wunsch,belastung,Eine Person möchte ihre Arbeitslast besser verteilen.,ich möchte meinen Workload besser verteilen.,nein
+F0229,T10,P16,4,buendelbar,automatisierung,Der Assistent für Fristen und Vorbereitung passt zu einem Office Organizer aus dem Personalwesen-Gespräch und einem Wochen-Dashboard eines Projektmanagers.,,nein
+F0230,T10,P10,4,buendelbar,begeisterung,Selbstbau statt teurer Speziallösung verbindet sich mit ähnlichen Ansätzen in der Personalberatung und im Marketing.,,nein
+F0231,T10,P10,5,,datenschutz,"Was können wir mit KI tun, wenn echte Daten tabu sind?",,nein
+F0232,T10,P10,5,,organisation,Wer trägt Verantwortung und Wartung für selbst gebaute Tools?,,nein
+F0233,T10,P16,5,,belastung,"Soll KI unsere Überlastung lösen, oder brauchen wir zuerst andere Grenzen?",,nein
+F0234,T10,P16,5,,belastung,Wie viel Freiraum für tiefe Arbeit schafft KI wirklich?,,nein
+F0235,T10,P10,6,,datenschutz,Motto: Effektiv arbeiten ohne Zugang zu echten Daten.,"Wie soll ich effektiv arbeiten, wenn ich nicht mit Daten operieren darf?",nein
+F0236,T10,P10,6,,begeisterung,Motto: Selbst nachbauen statt teuer einkaufen.,"Der hat das nachgebaut, eiskalt.",nein
+F0237,T11,P10,1,,unsicherheit,"Eine Person ist stolz auf ihre gut organisierte Lehre und hält sich zugleich für zu unbeholfen, KI schlüssig einzusetzen.",aber da bin ich noch zu doof,nein
+F0238,T11,P10,1,,mensch,"Eine Person sieht ihren Wert im persönlichen Auftritt vor der Klasse, darin klingt die Frage mit, was KI davon ersetzen kann.",weil ich mich da vorne hinstelle und den Leuten was vortanze,nein
+F0239,T11,P09,1,,jobs,,,ja
+F0240,T11,P10,2,,jobs,,,ja
+F0241,T11,P10,2,,jobs,,,ja
+F0242,T11,P09,3,versteckt,jobs,,,ja
+F0243,T11,P09,3,offen,pruefen,"KI muss sehr gut gesteuert werden, sonst wird das Ergebnis schwach.",Du musst die KI halt sehr sehr gut steuern.,nein
+F0244,T11,P10,3,offen,pruefen,"Man muss sich auf die Informationen der KI verlassen wollen, kann aber Quellen nachlesen und verifizieren.",Du kannst die Information ja auch verifizieren.,nein
+F0245,T11,P10,3,versteckt,unsicherheit,Eine Person ist im Umgang mit KI unsicher.,aber da bin ich noch zu doof,nein
+F0246,T11,P10,4,gelebt,automatisierung,Eine Person nutzt KI für die Unterrichtsvorbereitung und die Abläufe in der Schule.,um die Abläufe in der Schule in den Griff zu kriegen,nein
+F0247,T11,P09,4,gelebt,begeisterung,Eine Person nutzt KI für Ideenentwicklung und Generierung in der Kreation und für die Produktion von Videos.,Heutzutage sprichst du in die KI und ich stelle mir ein Bild vor.,nein
+F0248,T11,P10,4,wunsch,pruefen,"Mit KI-Recherche und Quellenprüfung soll ohne Werbeagentur herausgefunden werden, welche Kanäle sich lohnen.",das verspricht den meisten Erfolg und das ohne eine Werbeagentur,nein
+F0249,T11,P09,4,wunsch,begeisterung,"KI soll entlang der ganzen Wertschöpfung im Marketing helfen, etwa bei Marktforschung und Reporting über die Wirkung von Kampagnen.",Natürlich auch das Reporting.,nein
+F0250,T11,P09,4,buendelbar,pruefen,"Reporting und Kanalwahl lassen sich bündeln, beide fragen, welche Kommunikation überhaupt wirkt.",,nein
+F0251,T11,P09,5,,jobs,,,ja
+F0252,T11,P10,5,,mensch,"Was bleibt am persönlichen Auftritt in Lehre und Präsentation, das KI nicht übernimmt?",,nein
+F0253,T11,P10,5,,pruefen,"Wie prüfen wir KI-Empfehlungen, bevor wir Budget danach ausrichten?",,nein
+F0254,T11,P09,6,,mensch,Motto: Die KI braucht gute Steuerung durch den Menschen.,Du musst die KI halt sehr sehr gut steuern.,nein
+F0255,T12,P14,1,,datenschutz,"Ein Personalberater ist stolz auf seine Automatisierung und spielt Risiken herunter, nennt die Sicherheit aber selbst nur die Mindestanforderung.","Ist aber ehrlicherweise die Mindestanforderung, die man heute erfüllen muss.",nein
+F0256,T12,P14,1,,mensch,"Nebenbei wird deutlich, dass Querverbindungen und Empfehlungen zwischen Menschen verloren gehen, wenn die Maschine liest.",Solche Sachen passieren dann nicht mehr.,nein
+F0257,T12,P02,1,,mehrarbeit,,,ja
+F0258,T12,P02,1,,jobs,,,ja
+F0259,T12,P02,2,,jobs,,,ja
+F0260,T12,P14,2,,automatisierung,,,ja
+F0261,T12,P14,2,,automatisierung,"Ein Wettlauf zwischen Bewerber-Bots und Recruiting-Agenten zeichnet sich ab, wird aber nur als Anekdote erzählt.","die Bewerber haben aufgerüstet, die haben Bots am Laufen",nein
+F0262,T12,P02,3,offen,datenschutz,,,ja
+F0263,T12,P02,3,offen,mehrarbeit,"KI bläht Prozesse auf, statt sie effizienter zu machen.",Also der Prozess wird aufgeblasen statt effizienter in der gleichen Zeit.,nein
+F0264,T12,P02,3,offen,automatisierung,"Eine Person fragt nach der rechtlichen Lage, wenn Bewerbungen in Deutschland durch KI abgelehnt werden.",dass Bewerbungen quasi durch die KI abgelehnt werden,nein
+F0265,T12,P02,3,versteckt,jobs,,,ja
+F0266,T12,P14,3,versteckt,mensch,"Im Recruiting geht Beziehungswissen verloren, wenn die Maschine die Bewerbungen liest.",,nein
+F0267,T12,P14,4,gelebt,automatisierung,,,ja
+F0268,T12,P14,4,gelebt,automatisierung,"Ein Postfach-Agent liest Mails, ordnet sie als Aufgabe oder Termin ein, schlägt eine Antwort vor und verschickt sie nach Freigabe.",Ich tue kein Postfach mehr bearbeiten,nein
+F0269,T12,P02,4,gelebt,mehrarbeit,,,ja
+F0270,T12,P14,4,gelebt,automatisierung,"Bewerbende nutzen eigene Bots, die ab 85 Prozent Übereinstimmung automatisch Bewerbungen schicken, berichtet ein Personalberater.",ab 85 Prozent machen ein Schreiben und schickt die Bewerbung,nein
+F0271,T12,P14,4,wunsch,automatisierung,Mehr agentische KI soll in der täglichen Arbeit Standardanfragen allein beantworten.,"Mehr agentische KI einsetzen, auch für das, was ich täglich tu.",nein
+F0272,T12,P15,4,wunsch,begeisterung,"Eine Person möchte am Retreat eine App zum Pandemievertrag entwickeln, damit Mitglieder Kompromisse finden.",möchte ich eine Pandemic Treaty App entwickeln,nein
+F0273,T12,P14,4,buendelbar,automatisierung,"Postfach-Triage mit Antwortvorschlag taucht auch in anderen Gesprächen auf, etwa als Copilot-Workflow und bei einer Coachin.",,nein
+F0274,T12,P14,4,buendelbar,automatisierung,"HR-Prozesse mit KI verbinden zwei Personen aus dem Personalbereich, aus Unternehmens- und aus Beratersicht.",,nein
+F0275,T12,P02,5,,mehrarbeit,"Wo sparen wir mit KI wirklich Zeit, und wo erzeugen wir nur mehr Material?",,nein
+F0276,T12,P14,5,,automatisierung,"Wie viel menschliche Prüfung bleibt bei Entscheidungen über Menschen, zum Beispiel bei Absagen?",,nein
+F0277,T12,P14,5,,mensch,"Was passiert mit Beziehungen und Empfehlungen, wenn Bots auf beiden Seiten arbeiten?",,nein
+F0278,T12,P02,5,,jobs,,,ja
+F0279,T12,P02,6,,mehrarbeit,Motto: Der Prozess wird aufgeblasen statt effizienter.,Also der Prozess wird aufgeblasen statt effizienter in der gleichen Zeit.,nein
+F0280,T12,P14,6,,mensch,"Motto: Was zwischen Menschen passiert, geht verloren.",Solche Sachen passieren dann nicht mehr.,nein
+F0281,T13,unklar,1,,werkzeuge,"Die Technik soll im Hintergrund bleiben, gleichzeitig dreht sich die ganze Ansage um Apps und Menüs.",Überall haben wir drei Punkte zu sehen.,nein
+F0282,T13,unklar,1,,aufnahmen,"Die Organisierenden wollen die Aufnahmen zügig sammeln, wofür genau, wird nicht gesagt.","Also genau, zügig sammeln.",nein
+F0283,T13,unklar,1,,datenschutz,"Dass die KI-Zusammenfassung Privates weglässt, wird zur Beruhigung erzählt.",Das hat dann aus der Zusammenfassung rausgelassen.,nein
+F0284,T13,unklar,2,,aufnahmen,"Einwilligung und Datenschutz bei den Aufnahmen, also wer zustimmt, wo die Daten liegen und was damit passiert, spricht niemand an.",,nein
+F0285,T13,unklar,3,offen,aufnahmen,"Doppelte Aufnahmen sollen vermieden werden, es braucht eine Absprache, wer aufnimmt.","Aber es muss auch nicht jeder alles aufnehmen, weil dann haben wir Duplikate",nein
+F0286,T13,unklar,3,versteckt,unsicherheit,Im Umgang mit den Apps wird Unsicherheit erwartet und Hilfe angeboten.,Aber da helfen wir euch nachher.,nein
+F0287,T13,unklar,3,versteckt,pruefen,"Offen bleibt, ob die KI-Zusammenfassung Privates zuverlässig herausfiltert.",,nein
+F0288,T13,unklar,4,gelebt,begeisterung,"Eine Person spricht Ideen beim Autofahren in eine App ein und verarbeitet das Transkript später mit Code weiter, etwa zu einem Blogpost.",Blogpost daraus schreiben oder einfach mal ablegen,nein
+F0289,T13,unklar,4,gelebt,begeisterung,"Eine Person nutzt ständig Sprache zu Text, um Gedanken in ein Format zu bringen.",Ich benutze permanent Voice zum Text,nein
+F0290,T13,unklar,4,gelebt,datenschutz,Eine automatische Zusammenfassung trennt Privates von Beruflichem und lässt Privates weg.,"Genau, die ist ziemlich gut.",nein
+F0291,T13,unklar,4,gelebt,werkzeuge,Aufnahmen werden über die Telefon-App transkribiert.,,nein
+F0292,T13,unklar,4,buendelbar,werkzeuge,Sprachnotiz zu Transkript zu Text deckt sich mit dem Ablauf der Use-Case-Wanderung selbst.,,nein
+F0293,T13,unklar,5,,aufnahmen,"Wer nimmt was auf, und wie vermeiden wir doppelte Daten?",,nein
+F0294,T13,unklar,5,,aufnahmen,"Wo liegen unsere Aufnahmen, wer hat Zugriff, und was geschieht danach damit?",,nein
+F0295,T13,unklar,5,,mensch,"Wie bleibt die Technik im Hintergrund, während wir uns unterhalten?",,nein
+F0296,T13,unklar,6,,begeisterung,Motto: Gedanken aus dem Kopf in ein Format bringen.,Raus aus meinem Kopf rein in ein Format,nein
+F0297,T13,unklar,6,,mensch,Motto: Die Technik bleibt im Hintergrund.,die Technologie so ein bisschen im Hintergrund,nein
+F0298,T14,P03,1,,belastung,"Eine Person schützt sich bewusst vor schlechten Nachrichten, dahinter steckt mehr Sorge, als sie ausspricht.",weil die machen mir so viel schlechte Laune,nein
+F0299,T14,P03,1,,gesellschaft,"Krisenvorsorge schwingt mit, etwa Blackout, Hackerangriffe und Selbstversorgung mit einem Acker.",Ich hatte dann mehrere Jahre lang Acker,nein
+F0300,T14,P03,1,,belastung,"Beide Personen suchen Halt in Gegenbewegungen wie Natur, Offline-Zeit, Gemeinschaft und vielleicht Religion.",bei jeder technologischen Bewegung gibt es auch eine Gegenbewegung,nein
+F0301,T14,unklar,1,,gesellschaft,Eine Person schwankt zwischen Begeisterung und Endzeitbildern einer überlegenen KI.,"Ich freue mich tierisch, ich bin richtig aufgeladen",nein
+F0302,T14,unklar,2,,jobs,,,ja
+F0303,T14,P03,2,,belastung,"Offen bleibt, wie die eigene Abhängigkeit von KI zur Sehnsucht nach Unerreichbarkeit passt.",,nein
+F0304,T14,P03,2,,gesellschaft,"Es gibt Druck zur Sichtbarkeit auf LinkedIn, obwohl der Algorithmus fachliche Beiträge kaum belohnt.",30 tage jeden tag zu posten,nein
+F0305,T14,unklar,3,offen,jobs,,,ja
+F0306,T14,unklar,3,offen,gesellschaft,"Eine Person fürchtet eine Super-KI, die Menschen als Hindernis sieht.",was macht die Super KI mit uns?,nein
+F0307,T14,P03,3,offen,gesellschaft,"Profitgetriebene Firmen, militärische Nutzung und starke Open-Source-Modelle in falschen Händen werden als Gefahr gesehen.",Aber wenn halt Unternehmen profitgesteuert sind,nein
+F0308,T14,P03,3,versteckt,kompetenz,"Es schwingt die Sorge mit, das eigene Denken zu verlieren.",Manchmal lohnt es sich auch natürlich selbst zu denken,nein
+F0309,T14,unklar,3,versteckt,gesellschaft,,,ja
+F0310,T14,P03,4,gelebt,begeisterung,,,ja
+F0311,T14,P03,4,gelebt,begeisterung,Ein Second Brain mit Obsidian hält den Kontext zu Projekten.,wo waren wir das letzte Mal stehen geblieben,nein
+F0312,T14,P03,4,gelebt,automatisierung,"Folien, Miro-Boards und Angebote lässt eine Person von KI anlegen, während sie Kaffee trinkt.",Ich schicke das los und gehe Kaffee trinken dabei.,nein
+F0313,T14,P03,4,gelebt,automatisierung,,,ja
+F0314,T14,unklar,4,gelebt,automatisierung,,,ja
+F0315,T14,unklar,4,wunsch,mensch,Weniger Zeit in Buchhaltung und Dokumentation soll mehr Raum für persönliche Gespräche schaffen.,"viel mehr persönlichen Gesprächen führen, zwei Tage in der Buchhaltung sitzen",nein
+F0316,T14,P03,4,buendelbar,begeisterung,Das Second Brain mit Kontext passt zur Know-how-Datenbank eines Personalberaters und zum Wunsch eines Projektmanagers nach Überblick.,,nein
+F0317,T14,P03,4,buendelbar,begeisterung,,,ja
+F0318,T14,P03,5,,kompetenz,"Wo wollen wir bewusst ohne KI denken, schreiben und erreichbar sein?",,nein
+F0319,T14,unklar,5,,jobs,,,ja
+F0320,T14,P03,5,,automatisierung,Wofür lohnt sich KI wirklich?,Man muss nicht jedem Scheiß mit KI machen.,nein
+F0321,T14,P03,5,,belastung,Welche Gegenbewegung wollen wir selbst pflegen?,,nein
+F0322,T14,P03,6,,automatisierung,Motto: Nicht alles muss mit KI gemacht werden.,Man muss nicht jedem Scheiß mit KI machen.,nein
+F0323,T14,P03,6,,mensch,Motto: Jede technologische Bewegung hat eine Gegenbewegung.,bei jeder technologischen Bewegung gibt es auch eine Gegenbewegung,nein
+F0324,T15,P03,1,,gesellschaft,Beide suchen eine Stimme zwischen Euphorie und Ablehnung und empfinden die polarisierte Debatte über KI als belastend.,"Ich finde, das zieht mich total runter.",nein
+F0325,T15,P03,2,,pruefen,,,ja
+F0326,T15,P03,3,offen,kompetenz,"Eine Person fürchtet, geistig abzubauen, wenn sie sich alles von der KI schreiben lässt.",weil dann verblöde ich ja,nein
+F0327,T15,P01,3,offen,gesellschaft,"Eine Person fragt sich, wie stark Unternehmen die Antworten der Modelle zugunsten ihrer Marke beeinflussen können.",das Modell in Richtung ihrer Marke zu beeinflussen,nein
+F0328,T15,P03,5,,kompetenz,,,ja
+F0329,T15,P03,5,,ressourcen,Wie gehen wir mit dem Ressourcenverbrauch unserer eigenen KI-Experimente um?,"nur weil ich es kann, ist es nicht unbedingt sinnvoll",nein
+F0330,T15,P03,6,,mensch,"Motto: ehrlich bleiben und nicht behaupten, mit KI sei alles gut.","Ich will ja nicht irgendwie sagen, alles ist super, ist es ja nicht.",nein
+F0331,T16,unklar,1,,mensch,"Zu Beginn zeigt die Gruppe Fürsorge füreinander und organisiert gemeinsam Weg, Gepäck und Aufnahme.",Aber wenn ich dein Rucksack mal nehmen,nein
+F0332,T16,unklar,2,,aufnahmen,"Zwei Geräte zeichnen dasselbe Gespräch mit einem Transkriptionsdienst auf, ohne dass jemand fragt, wo die Daten landen.",Soll ich uns mal in Granola aufnehmen?,nein
+F0333,T16,P05,4,gelebt,aufnahmen,Eine Person nimmt Gespräche mit einem Transkriptionsdienst auf dem Handy auf und hat das am Morgen erstmals getestet.,Ich habe es heute Morgen kurz getestet.,nein
+F0334,T16,unklar,5,,aufnahmen,"Wie gehen wir mit Aufnahmen und Transkripten des Retreats um, also mit Werkzeug, Speicherort und Löschung?",,nein
+F0335,T17,P08,1,,organisation,,,ja
+F0336,T17,P08,1,,organisation,,,ja
+F0337,T17,P15,1,,jobs,,,ja
+F0338,T17,P08,1,,organisation,,,ja
+F0339,T17,unklar,1,,organisation,"Eine Person nutzt KI für alles, die andere im Beruf fast gar nicht, und das Gespräch zeigt diese Schere deutlich.",Ich benutze KI für alles,nein
+F0340,T17,P15,2,,jobs,,,ja
+F0341,T17,P08,2,,organisation,,,ja
+F0342,T17,P08,2,,datenschutz,,,ja
+F0343,T17,P08,3,offen,datenschutz,,,ja
+F0344,T17,P08,3,offen,pruefen,,,ja
+F0345,T17,P08,3,offen,organisation,,,ja
+F0346,T17,P15,3,offen,organisation,Ein Team kommt bei KI nur so schnell voran wie sein langsamstes Mitglied.,the team moves as fast as the slowest,nein
+F0347,T17,P08,3,versteckt,unsicherheit,"Die Ärztin befürchtet, dass sich KI für ihre Arbeit erst in ferner Zukunft sinnvoll nutzen lässt.",Es wird glaube ich noch dauern,nein
+F0348,T17,P15,4,gelebt,begeisterung,,,ja
+F0349,T17,P08,4,gelebt,begeisterung,"Die Ärztin hat sich in der Vorbereitung von der KI interviewen lassen, um Teilaufgaben ohne Verbindung zum Praxissystem zu finden.",,nein
+F0350,T17,P08,4,gelebt,mehrarbeit,,,ja
+F0351,T17,P08,4,wunsch,automatisierung,,,ja
+F0352,T17,P08,4,wunsch,mehrarbeit,Die Ärztin wünscht sich weniger Verwaltungsaufwand in der Praxis.,ich will weniger Verwaltungsaufwand,nein
+F0353,T17,P08,4,wunsch,begeisterung,"Die Ärztin hat sich für das Retreat ein privates Übungsprojekt mitgebracht, weil KI im Beruf nicht geht.",,nein
+F0354,T17,P08,4,buendelbar,datenschutz,,,ja
+F0355,T17,unklar,4,buendelbar,aufnahmen,Transkribieren und Zusammenfassen von Gesprächen folgt demselben Ablauf wie die Aufnahmen am Retreat.,,nein
+F0356,T17,unklar,4,buendelbar,organisation,"KI im Team einführen, wenn die Leitung zögert, ist ein gemeinsames Anliegen.",,nein
+F0357,T17,unklar,5,,organisation,"Wie bringen wir KI in Teams, die so schnell sind wie ihr langsamstes Mitglied?",,nein
+F0358,T17,unklar,5,,organisation,"Was können Angestellte tun, die nicht über KI entscheiden dürfen?",,nein
+F0359,T17,unklar,5,,datenschutz,Wo ist Datenschutz ein echter Schutz und wo nur eine Bremse?,,nein
+F0360,T17,unklar,5,,organisation,"Wie lernen wir KI, wenn der Beruf es nicht zulässt, etwa über private Projekte?",,nein
+F0361,T17,P08,6,,mehrarbeit,Motto: weniger Aufwand.,Ich will weniger Aufwand,nein
+F0362,T17,P15,6,,organisation,Motto: Das Team ist so schnell wie sein langsamstes Mitglied.,the team moves as fast as the slowest,nein
+F0363,T18,P07,1,,werkzeuge,,,ja
+F0364,T18,P04,1,,mensch,"Die Coachin zieht eine klare Grenze und will im Coaching als Mensch da sein, was auch nach Schutz der eigenen Rolle klingt.",als Mensch nur da sein möchte,nein
+F0365,T18,P04,1,,gesellschaft,Beide fühlen sich gegenüber den großen Akteuren der KI ohnmächtig.,wie das kleine dumme Volk,nein
+F0366,T18,P04,1,,unsicherheit,,,ja
+F0367,T18,P07,2,,datenschutz,,,ja
+F0368,T18,P04,2,,jobs,,,ja
+F0369,T18,P04,2,,automatisierung,"Offen bleibt, ob die Abgrenzung der Coachin hält, wenn sie selbst einen Agenten vom Kundengespräch bis zur Rechnung möchte.",,nein
+F0370,T18,P04,3,offen,datenschutz,"Die Coachin hat Angst um Kundendaten, Transkripte und Logos.",Dann immer so ein bisschen Angst um die Daten.,nein
+F0371,T18,P04,3,offen,datenschutz,"Es ist unklar, was mit eingegebenen Daten passiert, obwohl Deutschland als Burg des Datenschutzes gilt.",Deutschland ist ja so die Burg des Datenschutzes,nein
+F0372,T18,P07,3,offen,werkzeuge,"Die Werkzeuge ändern sich laufend, und kurz vor einem Termin funktioniert etwas nicht mehr.",,nein
+F0373,T18,P07,3,offen,gesellschaft,"Mächtige wissen mehr als die Öffentlichkeit, und hinter KI stehen Milliardengeschäfte.",,nein
+F0374,T18,P07,3,versteckt,kompetenz,"Die nächste Generation könnte verdummen, wenn KI Konflikt und Feedback ersetzt.",ob das halt auch so die Verdummheit eintritt,nein
+F0375,T18,P07,3,versteckt,mensch,Man kann sich in der KI verlieren und vereinzeln.,Also man verliert sich in dem Ding,nein
+F0376,T18,P07,4,gelebt,werkzeuge,,,ja
+F0377,T18,P04,4,gelebt,begeisterung,Die Coachin nutzt KI als Sparringspartner für die Konzeption von Workshops und hat ihre Webseite im Chat ausgearbeitet.,,nein
+F0378,T18,P07,4,gelebt,werkzeuge,,,ja
+F0379,T18,P04,4,wunsch,begeisterung,Die Coachin möchte Folien für Kooperationspartner automatisch mit deren Schriften und Logos erstellen lassen.,der übernimmt mir alle Schriften und Logos,nein
+F0380,T18,P04,4,wunsch,automatisierung,"Die Coachin wünscht sich einen Agenten, der sie vom Kundengespräch bis zu Feedback und Rechnung begleitet.",,nein
+F0381,T18,P07,4,wunsch,begeisterung,"Der Projektmanager möchte Standardaufgaben wie Folien, Statusberichte und Stakeholder-Management mit KI erledigen.",,nein
+F0382,T18,P07,4,wunsch,werkzeuge,"Der Projektmanager wünscht sich einen Leitfaden, welches Werkzeug wofür passt und was man eingeben darf, und einen Bericht über Änderungen der Werkzeuge.","so ein Leitfaden, wann hilft welches Tool",nein
+F0383,T18,P07,4,wunsch,datenschutz,"Eine lokale, abgeschlossene KI auf dem eigenen Rechner wäre interessant.",auch in der Art Offline Version auf seinen eigenen Rechner hinbasteln,nein
+F0384,T18,P07,4,buendelbar,werkzeuge,Leitfaden und Änderungsbericht zu Werkzeugen sind derselbe Wunsch wie in einem anderen Gespräch derselben Person.,,nein
+F0385,T18,unklar,4,buendelbar,datenschutz,Lokale KI verbindet sich mit Datenschutzfragen und lokalen Modellen aus anderen Gesprächen.,,nein
+F0386,T18,P04,4,buendelbar,begeisterung,Folien im Stil anderer passt zu Folien- und Präsentationsprojekten aus anderen Gesprächen.,,nein
+F0387,T18,unklar,5,,datenschutz,"Welche Regeln für Werkzeuge und Daten geben wir uns selbst, und welche brauchen unsere Kunden?",,nein
+F0388,T18,unklar,5,,organisation,"Wie lernen wir KI so bewusst, wie wir früher den Computer gelernt haben, statt alle einfach loslegen zu lassen?",,nein
+F0389,T18,unklar,5,,mensch,"Was bleibt menschlich, und schützen wir das bewusst?",,nein
+F0390,T18,unklar,5,,datenschutz,"Was tun, wenn Mitarbeitende die Regeln der Firma zu KI-Werkzeugen umgehen?",,nein
+F0391,T18,P07,6,,unsicherheit,"Motto: Alle nutzen KI, aber niemand kann es richtig.","Also jeder macht es, aber keiner kann so richtig.",nein
+F0392,T18,P07,6,,organisation,"Motto: Bei KI lassen wir alle einfach loslegen und hoffen, dass es klappt.",lass mal alle drauf los und wird schon klappen,nein
+F0393,T19,P05,1,,unsicherheit,"Eine Person ist stolz auf ihren ersten Agenten und braucht trotzdem Bestätigung, ob sie den nächsten Schritt schafft.","meinst du, das ist für mich machbar?",nein
+F0394,T19,P06,1,,automatisierung,"Der Rat, den letzten Schritt selbst zu machen, stammt aus einer Kränkung durch entnervte Antworten auf automatisierte Nachrichten.","Ich dachte, du bist was Besseres.",nein
+F0395,T19,P06,1,,belastung,,,ja
+F0396,T19,P05,1,,belastung,,,ja
+F0397,T19,P06,1,,jobs,,,ja
+F0398,T19,P06,2,,datenschutz,,,ja
+F0399,T19,unklar,2,,automatisierung,"Wo Automatisierung ins Unpersönliche kippt, bleibt offen, eine Taktik zum Abgreifen von Kontakten wird nur als interessant stehen gelassen.","Aber interessant, was so geht.",nein
+F0400,T19,P06,2,,mehrarbeit,"KI-Projekte kosten zunächst mehr Zeit, persönliche Nachrichten zu diktieren dauert fast so lange wie sie selbst zu schreiben.",da hätte ich es auch fast selber schreiben können,nein
+F0401,T19,P06,3,offen,automatisierung,Automatisierte Ansprache kann den eigenen Ruf beschädigen.,,nein
+F0402,T19,P06,3,offen,mehrarbeit,Ohne Kontext bringt KI bei persönlichen Nachrichten keine echte Zeitersparnis.,da fehlt halt einfach der KI der Kontext,nein
+F0403,T19,P06,3,offen,datenschutz,"Beim Einsatz von KI in einem Programm für Firmen bleibt offen, was datenschutzrechtlich machbar ist.",was ist da wieder datenschutztechnisch machbar,nein
+F0404,T19,P05,3,versteckt,unsicherheit,"Eine Person zweifelt, ob sie technisch mithalten kann.",,nein
+F0405,T19,P06,3,versteckt,jobs,,,ja
+F0406,T19,P05,4,gelebt,begeisterung,Eine Person hat einen Vertriebsagenten mit Wunschkundenliste und Bewertung nach eigenen Kriterien gebaut.,Ich habe den ersten Agenten gebaut.,nein
+F0407,T19,P06,4,gelebt,begeisterung,,,ja
+F0408,T19,P06,4,gelebt,begeisterung,,,ja
+F0409,T19,P06,4,gelebt,begeisterung,Eine Person lässt Fahrkarten-Rechnungen per Browsersteuerung herunterladen und in der Buchhaltung ablegen.,,nein
+F0410,T19,P06,4,gelebt,automatisierung,Eine Person hat mit KI personalisierte Nachrichten an 50 Teilnehmende in vier Gruppen geschrieben.,,nein
+F0411,T19,P05,4,wunsch,datenschutz,,,ja
+F0412,T19,P05,4,wunsch,begeisterung,Eine Person möchte jede Woche zwei Stunden mit dem Agenten Prio-A-Unternehmen und Anschreiben durchgehen.,Jeden Montag nehmen wir uns zwei Stunden Zeit.,nein
+F0413,T19,P05,4,wunsch,begeisterung,Eine Person möchte ihre erfolgreichsten LinkedIn-Beiträge auswerten.,,nein
+F0414,T19,P05,4,wunsch,begeisterung,"Eine Person möchte KI als neues Modul in ihr Programm für Führungskräfte in Elternzeit aufnehmen, zusammen mit einer Kollegin.",,nein
+F0415,T19,unklar,4,buendelbar,werkzeuge,Browsersteuerung für wiederkehrende Klickarbeit lässt sich einmal lernen und auf viele Abläufe anwenden.,,nein
+F0416,T19,P06,4,buendelbar,automatisierung,"Die Mischform aus automatisierter Recherche und persönlichem letzten Schritt passt für Vertrieb, Einladungen und Nachfass-Mails.",,nein
+F0417,T19,P05,5,,mehrarbeit,Was ist wirklich Zeitersparnis?,Was ist wirklich Zeitersparnis?,nein
+F0418,T19,unklar,5,,automatisierung,Wo ziehen wir die Grenze zwischen hilfreicher Automatisierung und unpersönlicher Ansprache?,,nein
+F0419,T19,unklar,5,,mehrarbeit,"Wie geben wir der KI genug Kontext über Beziehungen, ohne alles diktieren zu müssen?",,nein
+F0420,T19,unklar,5,,datenschutz,"Welche Daten Dritter dürfen in die KI, und wer entscheidet das?",,nein
+F0421,T19,unklar,5,,mensch,"Was bleibt wertvoll an persönlichem Austausch, wenn KI überall einfließt?",,nein
+F0422,T19,P06,6,,mensch,"Motto: Der Engpass der Zukunft ist, die Ideen zu haben.","das Bottleneck der Zukunft, die Ideen zu haben",nein
+F0423,T19,P05,6,,mehrarbeit,Motto: Was ist wirklich Zeitersparnis?,Was ist wirklich Zeitersparnis?,nein
+F0424,T20,P13,1,,belastung,,,ja
+F0425,T20,P13,1,,unsicherheit,"Eine Person hat das Gefühl, bei der Entwicklung der KI abgehängt zu sein.",da ist voll viel passiert,nein
+F0426,T20,P06,1,,datenschutz,Eine Person verschiebt die eigenen Grenzen schleichend und gibt der KI Zugriff auf immer mehr Ordner.,der hat theoretisch jetzt auf sechs oder sieben Ordner Zugriff,nein
+F0427,T20,P13,1,,mensch,"Beide wollen Arbeit behalten, die ihnen Freude macht, etwa E-Mails schreiben, und die Arbeit am Handout hat ein Konzept geschärft.",Also ich liebe ja meinen Job,nein
+F0428,T20,P06,1,,begeisterung,Eine Person möchte als Redner mit besonderen Präsentationen herausstechen.,einer der ersten Speaker zu sein,nein
+F0429,T20,unklar,2,,aufnahmen,"Auch dieses Gespräch wird aufgezeichnet und ausgewertet, was mit den Aufnahmen des Retreats passiert, bleibt offen.",da wird was aufgezeichnet und später verarbeitet,nein
+F0430,T20,P06,2,,datenschutz,,,ja
+F0431,T20,P06,2,,jobs,,,ja
+F0432,T20,P06,3,offen,automatisierung,"Die KI soll niemals selbst E-Mails im eigenen Namen verschicken, doch die Person fragt sich, wie lange das noch gut geht.",wie lange geht es noch gut?,nein
+F0433,T20,P06,3,offen,automatisierung,"Agenten könnten Unfug machen, deshalb will die Person Mensch in der Schleife bleiben.",dass sie halt nicht irgendeinen Unfug machen,nein
+F0434,T20,P06,3,offen,ressourcen,Endloses Auswerten und Verbrauchen von Tokens ist nicht nachhaltig.,"seine Tokens verballert, nicht besonders nachhaltig",nein
+F0435,T20,P06,3,offen,kompetenz,"Verstehen geht verloren, Studien zeigen, dass Leute den Inhalt ihres eigenen Papers nicht mehr kennen.","verstehen wir es wirklich, können wir es wiedergeben",nein
+F0436,T20,P13,3,versteckt,unsicherheit,Eine Person fühlt sich durch fehlendes Wissen über Konnektoren gebremst.,da fehlt mir so ein bisschen das Wissen oder die Vorstellungskraft,nein
+F0437,T20,P06,3,versteckt,unsicherheit,"Zwischen dem Hype in sozialen Netzwerken und der Realität bleibt Unsicherheit, weil Automatisierung trotz langer Versuche nicht klappt.","probiere ich seit drei Jahren, aber es hat immer noch nicht geklappt",nein
+F0438,T20,P06,4,gelebt,begeisterung,"Eine Person nutzt einen persönlichen Agenten per Messenger, der Restaurant und Weg recherchiert und rechtzeitig erinnert.",,nein
+F0439,T20,P06,4,gelebt,begeisterung,,,ja
+F0440,T20,P06,4,gelebt,begeisterung,Eine Person baut Vorträge und Workshop-Startseiten als HTML-Seiten mit Animationen.,,nein
+F0441,T20,P06,4,gelebt,automatisierung,"Eine Person lässt E-Mails gelegentlich vorformulieren, aber nie selbst verschicken.",,nein
+F0442,T20,P13,4,wunsch,werkzeuge,"Eine Person möchte einen Assistenten für Priorisierung und Zeitplanung, der bestätigte Aufträge, Mails und Kalender verbindet, und sucht dafür einen Umweg über Werkzeuge.",,nein
+F0443,T20,P13,4,wunsch,begeisterung,Eine Person denkt später an einen Freitagsbericht mit anstehenden Aufgaben.,,nein
+F0444,T20,P13,4,wunsch,belastung,Eine Person würde alle Verwaltungsaufgaben inklusive Zügen und Hotels an KI abgeben.,,nein
+F0445,T20,P13,4,wunsch,begeisterung,"Eine Person möchte KI in der Arbeit mit Kunden einsetzen, etwa für eine Schnitzeljagd oder eine kleine Abfrage-App.",,nein
+F0446,T20,P06,4,wunsch,begeisterung,"Eine Person möchte interaktive Vorträge mit Animationen, Ton und Bildern gestalten.",,nein
+F0447,T20,unklar,4,buendelbar,begeisterung,Termin- und Reiseplanung mit Erinnerung verbindet den Wunsch der einen mit der Erfahrung der anderen Person.,,nein
+F0448,T20,P06,4,buendelbar,datenschutz,Ordnerzugriff und Struktur für KI passen zu Fragen nach Kontaktdaten und Datenschutz aus anderen Gesprächen.,,nein
+F0449,T20,P06,4,buendelbar,begeisterung,Interaktive Präsentationen in HTML verbinden diese Person mit einer weiteren Person aus dem Organisationsteam.,,nein
+F0450,T20,unklar,5,,unsicherheit,"Was ist realistisch und was ist Hype, wenn wir Agenten bauen?",,nein
+F0451,T20,unklar,5,,automatisierung,"Wo wollen wir Mensch in der Schleife bleiben, und was geben wir ganz ab?",,nein
+F0452,T20,unklar,5,,ressourcen,Wie viel Auswertung reicht?,what for?,nein
+F0453,T20,unklar,5,,kompetenz,"Welche Arbeit wollen wir behalten, weil sie uns beim Denken hilft?",,nein
+F0454,T20,unklar,5,,datenschutz,"Wie trennen wir vertrauliche Kundendaten sauber von dem, was KI sehen darf?",,nein
+F0455,T20,P06,6,,ressourcen,"Motto: Man kann tausend Sachen machen, aber muss es sein?",muss es sein? Also du kannst natürlich tausend Sachen machen.,nein
+F0456,T20,P13,6,,belastung,"Motto: KI soll alles übernehmen, was den Rücken für die eigentliche Arbeit frei hält.","Alles, was mir den Rücken frei hält, damit ich arbeiten kann.",nein
+F0457,T21,P11,1,,organisation,"Eine Person treibt KI in ihrer Firma fast allein voran und hätte nichts dagegen, wenn die Abteilung wächst.",lass mal den Jungen schauen,nein
+F0458,T21,P08,1,,jobs,"Die Ärztin fragt direkt nach Stellenabbau, das Thema beschäftigt sie.",Sind denn bei dir im Arbeitsumfeld jetzt auch schon Posten weggefallen?,nein
+F0459,T21,P08,1,,pruefen,"Die Frage, wie man verhindert, dass KI sich verselbstständigt, verrät ein Grundmisstrauen.",sich doch selbstständig macht und ausbüxt,nein
+F0460,T21,P08,1,,datenschutz,"Die eine Firma kann ein lokales Modell im Haus betreiben, die Arztpraxis nicht, und dieser Kontrast bleibt unausgesprochen.",,nein
+F0461,T21,P08,1,,belastung,,,ja
+F0462,T21,P11,2,,jobs,"Jobverlust durch KI wird verneint und nur mit der heutigen Komplexität der Produkte begründet, ob das so bleibt, fragt niemand.",Dafür ist es dann auch nicht.,nein
+F0463,T21,P08,2,,datenschutz,"Gehälter werden als grösstes Datenrisiko genannt, aber nicht vertieft.",,nein
+F0464,T21,P11,2,,organisation,,,ja
+F0465,T21,P08,3,offen,pruefen,"Die Sorge, dass sich KI selbstständig macht und ausbricht, wird offen ausgesprochen.",,nein
+F0466,T21,P11,3,offen,datenschutz,,,ja
+F0467,T21,P08,3,offen,jobs,Die Angst vor wegfallenden Stellen wird als Frage gestellt und für die Firma des Gegenübers verneint.,,nein
+F0468,T21,P11,3,offen,mensch,"KI kann komplexen Service nicht leisten, menschlicher Kontakt und Vertrauen bleiben nötig.",Das kannst du die KI nicht machen lassen.,nein
+F0469,T21,P08,3,offen,datenschutz,,,ja
+F0470,T21,P11,4,gelebt,werkzeuge,Anomalieerkennung in Testdaten aus der Chipproduktion ist gelebter Alltag.,,nein
+F0471,T21,P11,4,gelebt,datenschutz,,,ja
+F0472,T21,P11,4,gelebt,automatisierung,"Ein Versuch mit KI im Kundenservice wurde verworfen, weil die Fragen zu komplex sind.",Wir haben das mal probiert.,nein
+F0473,T21,P08,4,gelebt,datenschutz,"In einigen anderen Arztpraxen wird bereits mit KI diktiert und transkribiert, in der eigenen nicht.",,nein
+F0474,T21,P08,4,wunsch,begeisterung,"Die Ärztin wünscht sich, dass KI aus grossen Datenmengen neue Krankheitsbilder erkennt.",tatsächlich neue Krankheitsentitäten,nein
+F0475,T21,P08,4,wunsch,automatisierung,"Online-Kleinanzeigen sollen strukturiert, verwaltet und halbautomatisch erneuert werden, vollautomatisch geht es nicht.",so ganz automatisiert geht es wohl nicht,nein
+F0476,T21,P11,4,buendelbar,datenschutz,Lokale Modelle für sensible Daten passen auch zur Arztpraxis und zu anderen Teilnehmenden mit vertraulichen Daten.,,nein
+F0477,T21,P11,4,buendelbar,werkzeuge,"Internet-Recherche bleibt vom internen Modell getrennt, die Ergebnisse werden von Hand weitergereicht.",die Ergebnisse weiterleiten.,nein
+F0478,T21,P11,4,buendelbar,organisation,"KI in einer Organisation erklären und verbreiten, in der nur eine Person treibt, ist ein gemeinsames Anliegen.",erklär den Leuten die Sachen,nein
+F0479,T21,unklar,5,,datenschutz,"Brauchen wir lokale Modelle, und wer betreibt sie, wenn es keine interne Fachperson gibt?",,nein
+F0480,T21,unklar,5,,mensch,"Wo ersetzt KI menschlichen Kontakt, und wo wollen wir ihn bewusst behalten?",,nein
+F0481,T21,P11,5,,organisation,"Wie schützen wir die Menschen, die KI in ihrer Firma allein voranbringen?",,nein
+F0482,T21,P08,5,,jobs,"Welche Jobs fallen weg, und wie reden wir ehrlich darüber?",,nein
+F0483,T21,P11,6,,mensch,Motto: Bei komplexen Fragen muss sich weiterhin ein Mensch einbringen.,Da muss ein Mensch noch mal sich einbringen,nein
+F0484,T21,P11,6,,mensch,Motto: Menschlicher Kontakt soll erhalten und gefördert werden.,"dass menschliche Kontakt da ist, dass er gefördert wird",nein
+F0485,T22,P14,1,,belastung,,,ja
+F0486,T22,P14,1,,belastung,Er kann kaum abschalten und hat sogar einen Bildschirm zum Retreat mitgebracht.,ich habe sogar einen Bildschirm mitgenommen,nein
+F0487,T22,P14,1,,automatisierung,"Er zieht eine Grenze, wo es menschlich wird, und fürchtet zugleich KI-Fehler, für die er haftet.",weil da ist uns heilig,nein
+F0488,T22,P11,1,,werkzeuge,"Eine Person will sich ein eigenes Urteil über Modelle bilden, statt Benchmarks zu glauben.",Will ich jetzt mal meine eigene Einschätzung irgendwie abgeben können,nein
+F0489,T22,P14,2,,belastung,,,ja
+F0490,T22,P14,2,,jobs,"Er automatisiert Rekrutierung und beklagt zugleich, dass KI jungen Absolventen den Einstieg versperrt, ohne den eigenen Anteil anzusprechen.",die nicht mehr in den Job kommen,nein
+F0491,T22,P14,2,,jobs,"Wenn sein Know-how in Prompts und Datenbank steckt, wird er selbst ersetzbar.",das ist dann so ein bisschen ersetzt eigentlich.,nein
+F0492,T22,P14,3,offen,pruefen,KI-Fehler bei Rechnungen und im Kundenkontakt werden offen befürchtet.,wenn da der KI Scheiße baut,nein
+F0493,T22,P14,3,offen,jobs,"Existenzangst und der Ersatz von Arbeit bis hin zu einer Gesellschaft, die nicht mehr selbst arbeitet, werden offen benannt.",KI in Verbindung mit Existenzangst,nein
+F0494,T22,P14,3,offen,gesellschaft,"Er fürchtet eine neue Feudalwirtschaft, in der wenige die automatisierten Fabriken besitzen.",das ist dann im Grunde genommen Feudalwirtschaft,nein
+F0495,T22,P14,3,offen,jobs,"Junge Fachleute finden keinen Einstieg mehr, später fehlen Teamleitungen.","Brauchst halt mehr Seniorleute, aber hast keine Juniorleute.",nein
+F0496,T22,P14,3,versteckt,werkzeuge,"Weil Prompts aus einem Jahr in einem System stecken, entsteht Abhängigkeit von einem Anbieter.",am Ende hängen da Prompts von mir drin,nein
+F0497,T22,P14,3,offen,gesellschaft,Deutschland verschläft die Entwicklung in allen Bereichen.,Deutschland schläft gerade in allen Bereichen.,nein
+F0498,T22,P14,4,gelebt,automatisierung,,,ja
+F0499,T22,P14,4,gelebt,automatisierung,Ein Postfach-Agent legt E-Mails ab und liefert Antwortvorschläge.,ich kriege nur noch die Textvorschläge für die Antworten,nein
+F0500,T22,P14,4,gelebt,automatisierung,Ein Ablauf wird einmal eingesprochen und abgelegt und dann mit neuen Dateien wiederholt.,"Du sprichst jetzt einfach den Vorgang ein, legst ihn ab",nein
+F0501,T22,P11,4,gelebt,datenschutz,Eine Person programmiert mit einer lokalen KI im Unternehmen.,,nein
+F0502,T22,P11,4,gelebt,begeisterung,,,ja
+F0503,T22,P14,4,gelebt,begeisterung,,,ja
+F0504,T22,P14,4,wunsch,automatisierung,"Gewünscht sind ein Office Organizer im Dashboard, ein Kandidaten-Radar, Jobsuche für gute Kandidaten und ein Mediencenter mit Agent für Social-Beiträge.",,nein
+F0505,T22,P14,4,wunsch,begeisterung,,,ja
+F0506,T22,P11,4,wunsch,werkzeuge,"Eine Person will verstehen, wie man Agenten aufbaut, ein Spiel entwickeln und zwei kommerzielle Modelle vergleichen.","wie ich einen Agenten aufbaue, wie ich den nutze",nein
+F0507,T22,P14,4,buendelbar,automatisierung,Der Office Organizer passt zu Assistenten für Fristen und zu einem Wochen-Dashboard anderer Teilnehmender.,,nein
+F0508,T22,P14,4,buendelbar,begeisterung,Der Gesundheitsberater passt zu Ernährungs- und Trainings-Apps anderer Teilnehmender.,,nein
+F0509,T22,P14,4,buendelbar,werkzeuge,Eine Datenbank mit dem eigenen Know-how passt zu einem Second Brain.,,nein
+F0510,T22,P14,5,,belastung,"Was kostet uns die Automatisierung an Gesundheit und Abschalten, und was gibt sie zurück?",,nein
+F0511,T22,unklar,5,,jobs,"Wenn KI Junior-Aufgaben übernimmt, wie werden Menschen künftig Senior?",,nein
+F0512,T22,P14,5,,werkzeuge,"Wie bleiben wir unabhängig von einem Anbieter, wenn unser Wissen in dessen System steckt?",,nein
+F0513,T22,P11,5,,werkzeuge,Wie bilden wir uns ein eigenes Urteil über Tools jenseits von Benchmarks?,,nein
+F0514,T22,P14,6,,belastung,Motto: Die Grenze setzt man sich selbst.,bin mein eigenes Limit,nein
+F0515,T22,P14,6,,gesellschaft,Motto: Deutschland schläft gerade in allen Bereichen.,Deutschland schläft gerade in allen Bereichen.,nein
+F0516,T23,P11,1,,organisation,"Eine Person trägt das KI-Thema im Unternehmen fast allein, weil es vorher niemanden dafür gab.","als hätte es da schon Leute gegeben, die das können",nein
+F0517,T23,P11,1,,unsicherheit,Sie fühlt sich von der Entwicklung überholt.,"unmöglich, irgendwie ansatzweise aktuell zu bleiben",nein
+F0518,T23,P11,1,,mehrarbeit,"Beide merken, dass KI eher mehr Arbeit macht und man schwerer aufhört.",gefühlt mache ich eher mehr dadurch,nein
+F0519,T23,P05,1,,belastung,"Die Coachin wünscht sich einen Sparringspartner, der sie bremst und Erfolge feiern lässt, was auf eine Neigung zur Selbstüberforderung deutet.",so ein bisschen wie so ein Sparringspartner,nein
+F0520,T23,P11,1,,mensch,"Die Freude an KI kommt bei beiden aus der Wirkung auf andere Menschen, weniger aus der Technik.",wenn es anderen geholfen hat,nein
+F0521,T23,P11,2,,organisation,,,ja
+F0522,T23,P11,2,,werkzeuge,"Was das kleinere lokale Modell gegenüber Topmodellen liegen lässt, bleibt in seinen Folgen für das Unternehmen offen.",was da vielleicht liegen gelassen wird,nein
+F0523,T23,P05,2,,mehrarbeit,,,ja
+F0524,T23,P11,3,offen,datenschutz,"Daten sollen das Unternehmen nicht verlassen, deshalb wird ein lokales Modell genutzt.","ohne dass man sich Gedanken machen muss, dass es irgendwie rauskommt",nein
+F0525,T23,P05,3,offen,mehrarbeit,"Die Coachin sieht die Gefahr, dass Effizienz zu immer mehr Arbeit führt.","immer mehr, immer mehr, immer mehr",nein
+F0526,T23,P11,3,offen,belastung,Man kann sich in Algorithmen zerdenken und zu lange aufhalten.,Kann man aber auch sehr zerdenken,nein
+F0527,T23,P11,3,versteckt,unsicherheit,Hinter der Rolle als interne KI-Ansprechperson steht Unsicherheit über die eigene Kompetenz.,"nicht so, als würde ich das schon beherrschen",nein
+F0528,T23,P05,3,versteckt,mensch,Kaltakquise und aggressiver Vertrieb sind der Coachin unangenehm.,Kaltakquise war nicht mein Ding,nein
+F0529,T23,P11,4,gelebt,datenschutz,,,ja
+F0530,T23,P11,4,gelebt,datenschutz,Mit dem internen Modell wird lokal programmiert.,,nein
+F0531,T23,P11,4,gelebt,werkzeuge,Privat ersetzt ChatGPT die Suchmaschine und erstellt Trainingspläne.,"klassisch suche, statt irgendwie Google zu nutzen",nein
+F0532,T23,P05,4,gelebt,begeisterung,Ein Vertriebsagent mit Claude hat eine Wunschkundenliste mit Kriterien und Scoring aufgebaut.,habe mir meinen Vertriebsagenten als ersten Mitarbeiter gebaut,nein
+F0533,T23,P05,4,wunsch,automatisierung,"Kontakte aus LinkedIn sollen per Download, Matching und Browsersteuerung mit Wunschkunden abgeglichen werden.","wie ich quasi meine Kontakte, die ich in LinkedIn habe, matchen kann",nein
+F0534,T23,P05,4,wunsch,automatisierung,"Für jeden wiederkehrenden Admin-Prozess soll ein Agent entstehen, der mit dem menschlichen Team zusammenarbeitet.","was sind so Standard Admin Prozesse, die immer wieder laufen",nein
+F0535,T23,P05,4,wunsch,begeisterung,,,ja
+F0536,T23,P11,4,wunsch,werkzeuge,Eine Person will Agenten verstehen und Topmodelle mit dem eigenen lokalen Modell vergleichen.,wie gut denn die Topmodelle sind,nein
+F0537,T23,P05,4,buendelbar,automatisierung,Agenten für Standardprozesse und interne Wissenssuche verbinden sich: Informationen schneller finden und Routine abgeben.,,nein
+F0538,T23,P11,4,buendelbar,datenschutz,Der Vergleich lokaler und kommerzieller Modelle betrifft alle mit Datenschutzanforderungen.,,nein
+F0539,T23,P05,5,,mehrarbeit,"Wie verhindern wir, dass Effizienz zu immer mehr führt?",,nein
+F0540,T23,P05,5,,belastung,"Wer bremst uns, und wer feiert mit uns Erfolge, wenn der Agent das Tempo vorgibt?",,nein
+F0541,T23,P11,5,,datenschutz,"Was verlieren wir mit kleineren lokalen Modellen, und was gewinnen wir an Sicherheit?",,nein
+F0542,T23,P11,5,,unsicherheit,"Wie bleibt man aktuell, ohne sich zu überfordern?",,nein
+F0543,T23,P11,5,,organisation,"Wie bringen wir Menschen zusammen, damit eine Person die KI-Einführung nicht allein tragen muss?",,nein
+F0544,T23,P05,6,,mensch,Motto: Mehr Zeit fürs Menschliche.,mehr Zeit fürs Menschliche,nein
+F0545,T23,P05,6,,begeisterung,Motto: Feier die Erfolge.,feier die Erfolge,nein
+F0546,T24,P07,1,,mehrarbeit,"Der Projektmanager zeigt KI-Müdigkeit und ist genervt von allen, die sich als neue KI-Profis darstellen.",wahrscheinlich fast zu viel für meine Verhältnisse,nein
+F0547,T24,P07,1,,organisation,,,ja
+F0548,T24,P11,1,,unsicherheit,Eine Person betont Bescheidenheit und ist doch die treibende Kraft im eigenen Unternehmen.,nicht so als würde ich das schon beherrschen,nein
+F0549,T24,P07,1,,unsicherheit,"Beide sind unsicher, ob ihr Use Case für das Wochenende reicht.",umso mehr man spricht umso irgendwie bin ich mir nicht ganz sicher,nein
+F0550,T24,P07,2,,organisation,,,ja
+F0551,T24,P11,2,,pruefen,,,ja
+F0552,T24,P07,2,,gesellschaft,"Ob Europa bei KI noch mithalten kann, wird kurz gefragt und dann verlassen.",kann man da Europa überhaupt noch mitgehen,nein
+F0553,T24,P11,3,offen,mehrarbeit,KI bringt vor allem mehr Tempo und Menge und ist anstrengend für den Kopf.,ziemlich anstrengend auch für den Kopf,nein
+F0554,T24,P07,3,offen,pruefen,"Wenn KI Code schreibt, droht Kontrollverlust, und es braucht mehr Menschen, die prüfen.","bist dann kein Codierer mehr, sondern bist ein Experte, der Codier lesen kann",nein
+F0555,T24,P07,3,offen,organisation,,,ja
+F0556,T24,P07,3,offen,datenschutz,Aus Gründen der Datensicherheit wird bei der Arbeit ein europäisches Modell und im anderen Unternehmen ein lokales Modell genutzt.,"verwenden wir halt Mistral, weil es halt europäisch ist",nein
+F0557,T24,P07,3,versteckt,belastung,Man kann andere mit KI überrennen und dabei die eigene Motivation verlieren.,du kannst halt echt Leute zum einen überrennen damit,nein
+F0558,T24,P07,3,versteckt,werkzeuge,Die Vielfalt der Tools in der Firma und bei Kunden überfordert.,"hast du halt vier, fünf Tools, die Kunden haben dann noch mal drei Tools",nein
+F0559,T24,P07,4,gelebt,automatisierung,Mit selbst gebauten Konnektoren und Skills plant der Projektmanager Teams und Kapazitäten über den Kalender.,Connector habe ich mir gebaut,nein
+F0560,T24,P07,4,gelebt,automatisierung,Eine Ressourcen-Integration mit einem Demand-Management-Tool ist im Aufbau.,,nein
+F0561,T24,P11,4,gelebt,datenschutz,,,ja
+F0562,T24,P11,4,gelebt,werkzeuge,,,ja
+F0563,T24,P11,4,gelebt,begeisterung,,,ja
+F0564,T24,P07,4,gelebt,pruefen,,,ja
+F0565,T24,P07,4,gelebt,werkzeuge,"Gespräche werden mit Granola aufgenommen, und Copilot wird als Facilitator eingesetzt.",,nein
+F0566,T24,P07,4,wunsch,mensch,Als Projektmanager will er seine eigenen Skills mit KI-Unterstützung professioneller einbringen.,dass ich halt weiterhin als PN wirklich auch meine Skills einbringen kann,nein
+F0567,T24,P07,4,wunsch,werkzeuge,"Gewünscht ist eine Entscheidungshilfe, welches KI-Tool in welcher Situation mit welchen Daten passt.",dann brauche ich eher das KI Tool,nein
+F0568,T24,P07,4,wunsch,datenschutz,Eine eigene KI zu Hause ist angedacht.,,nein
+F0569,T24,P07,4,buendelbar,organisation,"Beide zeigen Kolleg:innen, wie Skills funktionieren, eine interne KI-Community verbindet das.",,nein
+F0570,T24,P11,4,buendelbar,datenschutz,Lokale oder europäische Modelle aus Datenschutzgründen betreffen beide.,,nein
+F0571,T24,P11,4,buendelbar,werkzeuge,"Für eine Tool-Übersicht wird vorgeschlagen, einen Mitveranstalter zu fragen.",,nein
+F0572,T24,P07,5,,organisation,"Wer bezahlt die Zeit, die wir zum Lernen mit KI brauchen?",,nein
+F0573,T24,P11,5,,mehrarbeit,"Wie bremsen wir, damit wir uns und andere nicht überrennen?",,nein
+F0574,T24,P07,5,,werkzeuge,Welches Tool passt zu welchen Daten und Situationen?,,nein
+F0575,T24,unklar,5,,pruefen,"Wer prüft, was KI erzeugt, und wie werden wir zu Prüfenden?",,nein
+F0576,T24,P07,5,,unsicherheit,Ist unser Use Case zu groß oder zu klein?,,nein
+F0577,T24,P11,6,,mehrarbeit,Motto: Durch KI macht man eher mehr und schneller.,ich mache dadurch eher mehr und halt schneller,nein
+F0578,T24,P11,6,,belastung,Motto: Mal kurz bremsen.,mal kurz bremsen,nein
+F0579,T25,P08,1,,organisation,,,ja
+F0580,T25,P08,1,,organisation,,,ja
+F0581,T25,P09,1,,organisation,,,ja
+F0582,T25,P08,1,,gesellschaft,"Dass Plattformen KI aussperren, finden beide teils nachvollziehbar.",Macht ja auch Sinn.,nein
+F0583,T25,P08,1,,belastung,,,ja
+F0584,T25,P09,2,,jobs,"KI verändert die Arbeit der beauftragten Werbeagenturen, was das für deren Arbeitsplätze heisst, wird nicht angesprochen.",,nein
+F0585,T25,P09,2,,datenschutz,,,ja
+F0586,T25,P09,2,,gesellschaft,"Betrug mit KI nimmt zu, und zugleich ist KI das Werkzeug, das alle hier lernen wollen.",,nein
+F0587,T25,P08,3,offen,datenschutz,Datenschutzverordnung und die Zulassung als Medizinprodukt bremsen jeden grösseren KI-Einsatz in der Praxis.,die dann auch als Medizinprodukt zugelassen sind,nein
+F0588,T25,P08,3,offen,ressourcen,Cloud-Lösungen locken mit günstigem Einstieg und werden dann über Abos und Gebühren für den Datenzugriff teuer.,"sobald das Abo läuft, richtig teuer wird",nein
+F0589,T25,P08,3,offen,gesellschaft,"Die Ärztin befürchtet, dass KI schnell für Missbrauch genutzt wird.",schnell wieder genutzt für Schindluder,nein
+F0590,T25,P09,3,offen,gesellschaft,,,ja
+F0591,T25,P08,3,offen,gesellschaft,"Auf der Kleinanzeigen-Plattform droht eine Kontosperre, wenn KI-Nutzung vermutet wird.",wird der Account gelöscht,nein
+F0592,T25,P09,3,versteckt,pruefen,,,ja
+F0593,T25,P09,4,gelebt,werkzeuge,Werbeagenturen nutzen KI für Bildgenerierung und Texte in der Kreation.,in der tatsächlichen Entwicklung von Kreation,nein
+F0594,T25,P09,4,gelebt,datenschutz,,,ja
+F0595,T25,P08,4,gelebt,datenschutz,In manchen Arztpraxen sind Spracherkennung und Transkription bereits im Einsatz.,,nein
+F0596,T25,P09,4,wunsch,automatisierung,,,ja
+F0597,T25,P08,4,wunsch,automatisierung,,,ja
+F0598,T25,P08,4,wunsch,automatisierung,"Online-Kleinanzeigen sollen halbautomatisch erstellt, bepreist, regelmässig erneuert und im Überblick gehalten werden.",damit die nicht immer weiter runterrutschen,nein
+F0599,T25,P09,4,buendelbar,gesellschaft,"Quellen beobachten und zusammenfassen, die KI nicht direkt lesen darf, ist ein gemeinsames Problem der Plattformsperren.",,nein
+F0600,T25,P08,4,buendelbar,automatisierung,Halbautomatisierung mit einem menschlichen Knopfdruck am Ende verbindet mehrere Wünsche.,,nein
+F0601,T25,P08,4,buendelbar,datenschutz,Dokumentation im Arztgespräch ist derselbe Wunsch wie in einem anderen Gespräch der Ärztin.,,nein
+F0602,T25,unklar,5,,gesellschaft,"Wie gehen wir mit Plattformen um, die KI aussperren, und wo ist das richtig so?",,nein
+F0603,T25,unklar,5,,gesellschaft,Wie schützen wir uns und andere vor KI-gestütztem Betrug?,,nein
+F0604,T25,P08,5,,organisation,"Wie bleibt man dran, wenn der Beruf bremst und die Geduld nachlässt?",,nein
+F0605,T25,unklar,5,,pruefen,"Was darf KI in der Medizin, und was erwarten wir als Patient:innen?",,nein
+F0606,T25,P08,6,,automatisierung,Motto: Am Ende drückt ein Mensch selbst auf den Knopf.,irgendwo muss ich dann selbst noch auf den Knopf drücken,nein
+F0607,T25,P08,6,,belastung,Motto: Platz im Kopf schaffen.,Platz wieder vom Kopf entlasten,nein
+F0608,T26,P07,1,,unsicherheit,"Der Projektmanager ist verunsichert, weil die Frage, welches Tool wofür taugt, keine feste Antwort hat.",bauen so bisschen langsam verunsichert,nein
+F0609,T26,P07,1,,werkzeuge,"Die Toolvielfalt erzeugt Stress, er möchte vorher wissen, was sich nächste Woche ändert.",was fuckt eigentlich nächste Woche ab,nein
+F0610,T26,P07,1,,jobs,,,ja
+F0611,T26,P06,1,,mensch,Der Mitveranstalter will Mut machen: Erfahrene profitieren am meisten von KI.,dann bist du ja unersetzlich quasi,nein
+F0612,T26,P07,2,,jobs,,,ja
+F0613,T26,P07,2,,organisation,"Der eigenen Firma fehlt eine KI-Strategie, obwohl sie Kunden beraten soll.",dieses Wischiwaschi aktuell von allen Ecken,nein
+F0614,T26,P07,2,,organisation,,,ja
+F0615,T26,P07,3,offen,werkzeuge,"Tools ändern sich ständig, Funktionen verschwinden ohne Vorwarnung.",gestern gab es das noch bei der einen,nein
+F0616,T26,P07,3,offen,werkzeuge,Das vorgegebene europäische Modell liegt in den Rankings hinten.,Mistral ist es aber auf dem hintersten Platz,nein
+F0617,T26,P07,3,offen,jobs,,,ja
+F0618,T26,P07,3,versteckt,organisation,"Die Motivation im Team ist unterschiedlich, manche reagieren nur mit Blicken.",die einen sind echt schauen dich dann irgendwie an,nein
+F0619,T26,P07,3,offen,organisation,"Bei Kunden herrscht Halbwissen, KI wurde ohne Schulungen eingeführt.",jeder hat so ein bisschen Halbwissen,nein
+F0620,T26,P07,4,gelebt,pruefen,,,ja
+F0621,T26,P07,4,gelebt,begeisterung,"Mit Claude entstanden eine Ernährungs-App und ein Trainingsplan, die ein bezahltes Abo ersetzen, dazu Versuche mit Lovable.",keinen Bock da wieder irgendwas zu zahlen,nein
+F0622,T26,P07,4,gelebt,automatisierung,"In der Firma verbindet ein Mistral-Connector Kalender, Ressourcendatei und Demand-Prozess, um Projekte annehmen oder ablehnen zu können.",welches Projekt ablehnen müssen oder halt annehmen können,nein
+F0623,T26,P07,4,gelebt,werkzeuge,Kunden nutzen Copilot als offizielle KI.,Co Pilot als offizielle KI,nein
+F0624,T26,P07,4,wunsch,werkzeuge,"Ein wöchentlicher Bericht oder ein Dashboard soll zeigen, was sich bei den Tools geändert hat, was neu ist und was wegfällt.",so ein Report einmal in der Woche,nein
+F0625,T26,P07,4,wunsch,mensch,Die Tätigkeit als Projektmanager soll mit KI im Alltag professioneller und entlastet werden.,wie kann ich meine PM Tätigkeiten noch professioneller machen,nein
+F0626,T26,P07,4,wunsch,automatisierung,Ein Dashboard soll dem Ops-Team Benachrichtigungen zu Kunden-Tickets schicken.,Euch ein Dashboard und das Dashboard schickt euch wieder Notifications,nein
+F0627,T26,P07,4,wunsch,organisation,Gewünscht ist eine klare KI-Strategie der Firma gegenüber Kunden.,,nein
+F0628,T26,P07,4,buendelbar,werkzeuge,Tool-Änderungsbericht und Leitfaden sind dasselbe Anliegen wie in einem anderen Gespräch.,,nein
+F0629,T26,P07,4,buendelbar,automatisierung,Ressourcenplanung mit Kalender verbindet sich mit Einsatzplanung und einem Office Organizer anderer Teilnehmender.,,nein
+F0630,T26,P07,4,buendelbar,begeisterung,Die Gesundheits-Apps passen zu ähnlichen Vorhaben anderer Teilnehmender.,,nein
+F0631,T26,P06,5,,werkzeuge,"Bei welchem Tool bleiben wir, nach Werten, Preis und Bedienbarkeit, statt ständig zu wechseln?",,nein
+F0632,T26,P07,5,,jobs,"Wie nehmen wir Menschen mit, die seit 30 Jahren dieselbe Rolle haben?",,nein
+F0633,T26,P07,5,,werkzeuge,"Wie bleiben wir auf dem Laufenden, ohne uns im Wechsel zu verlieren?",,nein
+F0634,T26,P07,5,,organisation,Welche KI-Strategie wollen wir unseren Kunden vorleben?,,nein
+F0635,T26,P06,6,,werkzeuge,Motto: Es wechselt alle sechs Wochen.,Es wechselt halt alle sechs Wochen.,nein
+F0636,T26,P07,6,,mensch,"Motto: Mit langer Erfahrung ist man nicht nutzlos, man muss sich neu aufstellen.","du bist aber nicht nutzlos, sondern musst halt dich neu aufstellen",nein

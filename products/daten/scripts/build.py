@@ -3,8 +3,10 @@
 Usage: python3 products/daten/scripts/build.py (from the repository root)
 Inputs: shared/daten/fragmente/T??_{meta,speakers,findings,use_cases}.csv,
 shared/daten/transcript_key.csv, shared/daten/speaker_key.csv.
-Outputs: shared/daten/{transcripts,speakers,findings,use_cases}.csv. They stay
-in shared/ (not committed) because they are close to what people said.
+Outputs: shared/daten/{transcripts,speakers,findings,use_cases}.csv, the full
+local version, and the same four tables in products/daten/ for publication:
+summary and quote are emptied in rows flagged as sensitive, so every count
+stays reproducible while sensitive content stays local.
 Exits with an error listing every problem found; names from the speaker key
 must never reach the outputs.
 """
@@ -96,6 +98,19 @@ def main():
     write("speakers.csv", speakers, ["transcript_id", "speaker_id", "role", "sector", "ai_experience"])
     write("findings.csv", findings, ["finding_id", "transcript_id", "speaker_id", "question", "subtype", "theme_code", "summary", "quote", "sensitive"])
     write("use_cases.csv", use_cases, ["use_case_id", "transcript_id", "speaker_id", "status", "task_type", "sector", "tools", "data_sensitivity", "cluster", "summary"])
+    # Public copies: sensitive findings keep their codes but lose their text.
+    public = [dict(f, summary="", quote="") if f["sensitive"] == "ja" else f for f in findings]
+    public_meta = [dict(m, note=m.get("note", "").replace(", Bruder wie in T26", " wie in T26")) for m in meta]
+    for name, rows, fields in [
+        ("transcripts.csv", public_meta, ["transcript_id", "source", "date", "n_words", "n_speakers", "speakers_labelled", "format", "quality", "note"]),
+        ("speakers.csv", speakers, ["transcript_id", "speaker_id", "role", "sector", "ai_experience"]),
+        ("findings.csv", public, ["finding_id", "transcript_id", "speaker_id", "question", "subtype", "theme_code", "summary", "quote", "sensitive"]),
+        ("use_cases.csv", use_cases, ["use_case_id", "transcript_id", "speaker_id", "status", "task_type", "sector", "tools", "data_sensitivity", "cluster", "summary"]),
+    ]:
+        with open(CODES / name, "w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
+            w.writeheader(); w.writerows(rows)
+
     print(f"transcripts {len(meta)}, speaker rows {len(speakers)}, findings {len(findings)}, use cases {len(use_cases)}")
     if problems:
         print(f"{len(problems)} problems:"); print("\n".join(problems)); sys.exit(1)
