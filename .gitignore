@@ -9,3 +9,6 @@ shared/
 products/folien/*.html
 products/folien/*_files/
 products/folien/.quarto/
+
+/.quarto/
+**/*.quarto_ipynb

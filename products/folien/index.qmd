@@ -70,6 +70,8 @@ Die Use-Case-Wanderung am AI Retreat, 16. Oktober 2026, ausgewertet mit den sech
 
 Jede Aufnahme wurde mit den sechs Leitfragen ausgewertet, jede Aussage einem von 15 Themen zugeordnet. Namen sind entfernt.
 
+Folien online: [larnsce.github.io/ai-retreat-2026](https://larnsce.github.io/ai-retreat-2026/)
+
 ::: {.quelle}
 Automatisch transkribiert und von einem Sprachmodell codiert, von Lars geprüft. Zählungen zeigen, wie oft etwas angesprochen wurde, keine Gewichtung.
 :::
