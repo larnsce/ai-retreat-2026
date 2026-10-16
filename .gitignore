@@ -1,0 +1,6 @@
+# Shared material from the group: transcripts, board content, files from others.
+# It holds personal data and stays on this laptop; it is never committed.
+shared/
+.DS_Store
+.Rproj.user/
+.quarto/
