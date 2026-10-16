@@ -1,0 +1,238 @@
+---
+pagetitle: "Was auf der Wanderung gesagt wurde"
+author: "Lars Schöbitz"
+lang: de
+format:
+  revealjs:
+    theme: [default, folien.scss]
+    slide-number: true
+    transition: none
+    embed-resources: true
+execute:
+  echo: false
+  warning: false
+  message: false
+fig-width: 11
+fig-height: 5.6
+fig-dpi: 200
+---
+
+```{r}
+#| label: setup
+library(ggplot2)
+source(here::here("products", "folien", "R", "daten.R"))
+
+farbe_1 <- "#2a78d6"
+farbe_2 <- "#eb6834"
+text_primaer <- "#0b0b0b"
+text_sekundaer <- "#52514e"
+linie <- "#e4e3df"
+flaeche <- "#fcfcfb"
+
+theme_folien <- function() {
+  theme_minimal(base_size = 20) +
+    theme(
+      plot.background = element_rect(fill = flaeche, colour = NA),
+      panel.grid.minor = element_blank(),
+      panel.grid.major.y = element_blank(),
+      panel.grid.major.x = element_line(colour = linie, linewidth = 0.4),
+      axis.text = element_text(colour = text_sekundaer),
+      axis.title = element_text(colour = text_sekundaer, size = 16),
+      legend.position = "top",
+      legend.justification = "left",
+      legend.title = element_blank(),
+      legend.text = element_text(colour = text_primaer),
+      plot.margin = margin(5, 15, 5, 5)
+    )
+}
+```
+
+## Was auf der Wanderung gesagt wurde
+
+::: {.untertitel}
+Die Use-Case-Wanderung am AI Retreat, 16. Oktober 2026, ausgewertet mit den sechs Leitfragen
+:::
+
+::: {.kennzahlen}
+::: {.kennzahl}
+<strong>`r kennzahlen$aufnahmen`</strong><span>Aufnahmen</span>
+:::
+::: {.kennzahl}
+<strong>`r kennzahlen$personen`</strong><span>Personen</span>
+:::
+::: {.kennzahl}
+<strong>`r kennzahlen$aussagen`</strong><span>Aussagen zu den Leitfragen</span>
+:::
+::: {.kennzahl}
+<strong>`r kennzahlen$use_cases`</strong><span>Anwendungsfälle</span>
+:::
+:::
+
+Jede Aufnahme wurde mit den sechs Leitfragen ausgewertet, jede Aussage einem von 15 Themen zugeordnet. Namen sind entfernt.
+
+::: {.quelle}
+Automatisch transkribiert und von einem Sprachmodell codiert, von Lars geprüft. Zählungen zeigen, wie oft etwas angesprochen wurde, keine Gewichtung.
+:::
+
+## Die meisten Aussagen betreffen Use Cases und Ängste
+
+```{r}
+#| label: pro-frage
+#| fig-alt: "Balkendiagramm der Aussagen pro Leitfrage, sortiert nach Häufigkeit. Leitfrage 4, Use Cases, hat die meisten Aussagen, Leitfrage 6, Motto, die wenigsten."
+ggplot(pro_frage, aes(x = n, y = frage)) +
+  geom_col(width = 0.65, fill = farbe_1) +
+  geom_text(aes(label = n), hjust = -0.25, size = 6, colour = text_primaer) +
+  scale_x_continuous(expand = expansion(mult = c(0, 0.1))) +
+  labs(x = "Anzahl Aussagen", y = NULL) +
+  theme_folien()
+```
+
+## Was pro Leitfrage am häufigsten vorkommt
+
+```{r}
+#| label: themen
+#| fig-height: 5.8
+#| fig-alt: "Fünf kleine Balkendiagramme, eines pro Leitfrage ausser Use Cases. Jedes zeigt die drei Themen, die in den meisten Gesprächen vorkommen."
+ggplot(top_themen, aes(x = gespraeche, y = zeile)) +
+  geom_col(width = 0.7, fill = farbe_1) +
+  geom_text(aes(label = gespraeche), hjust = -0.3, size = 5, colour = text_primaer) +
+  facet_wrap(~ frage, ncol = 2, scales = "free_y") +
+  scale_y_discrete(labels = function(x) sub("___.*$", "", x)) +
+  scale_x_continuous(limits = c(0, 16), expand = expansion(mult = c(0, 0))) +
+  labs(x = paste("Zahl der Gespräche, von", kennzahlen$gespraeche), y = NULL) +
+  theme_folien() +
+  theme(strip.text = element_text(hjust = 1, size = 16, face = "bold", colour = text_primaer),
+        strip.clip = "off",
+        axis.text.y = element_text(size = 14), panel.spacing.y = unit(0.8, "lines"))
+```
+
+::: {.quelle}
+Je Leitfrage die drei Themen aus dem Codebuch, die in den meisten Gesprächen vorkommen. Leitfrage 4 folgt auf Folie 5.
+:::
+
+## {.zitatfolie}
+
+::: {.zitat}
+«Was ist wirklich Zeitersparnis?»
+:::
+
+::: {.zitat-herkunft}
+Leitfrage 5: Welche Fragen sollten wir uns an diesem Wochenende stellen?
+:::
+
+## Use Cases: Schreiben und Gestalten ist Alltag, Organisieren noch Wunsch
+
+```{r}
+#| label: use-cases
+#| fig-height: 4.6
+#| fig-alt: "Gespiegeltes Balkendiagramm der Use Cases in fünf Gruppen. Gelebte Fälle nach links, Wünsche nach rechts. Schreiben und Gestalten ist vor allem gelebt, Organisieren und Lernen und Orientierung vor allem Wunsch."
+grenze <- max(abs(use_case_gruppen$wert)) + 6
+
+ggplot(use_case_gruppen, aes(x = wert, y = gruppe, fill = status)) +
+  geom_col(width = 0.65, colour = flaeche, linewidth = 0.6) +
+  geom_text(aes(label = abs(wert), hjust = ifelse(wert < 0, 1.3, -0.3)), size = 6, colour = text_primaer) +
+  geom_vline(xintercept = 0, colour = text_sekundaer, linewidth = 0.4) +
+  annotate("text", x = -grenze, y = Inf, label = "gelebt", hjust = 0, vjust = -0.4, size = 7, colour = farbe_1, fontface = "bold") +
+  annotate("text", x = grenze, y = Inf, label = "Wunsch", hjust = 1, vjust = -0.4, size = 7, colour = farbe_2, fontface = "bold") +
+  scale_fill_manual(values = c(gelebt = farbe_1, Wunsch = farbe_2)) +
+  scale_x_continuous(limits = c(-grenze, grenze), labels = abs) +
+  coord_cartesian(clip = "off") +
+  labs(x = "Anzahl Use Cases", y = NULL) +
+  theme_folien() +
+  theme(legend.position = "none", plot.margin = margin(30, 15, 5, 5))
+```
+
+::: {.quelle}
+Leitfrage 4: Jeder konkrete Anwendungsfall, den jemand in einem Gespräch nennt, ist eine Zeile (`r kennzahlen$use_cases` insgesamt). «Gelebt» heisst, die Person nutzt ihn schon; «Wunsch» heisst, sie möchte ihn. Gruppiert nach Art der Aufgabe.
+:::
+
+## Claude und ChatGPT sind am weitesten verbreitet
+
+```{r}
+#| label: werkzeuge
+#| fig-alt: "Punktdiagramm der KI-Werkzeuge nach der Zahl der Gespräche, in denen sie genannt werden. Claude und ChatGPT führen."
+ggplot(werkzeuge, aes(x = gespraeche, y = tool)) +
+  geom_segment(aes(x = 0, xend = gespraeche, yend = tool), colour = linie, linewidth = 1.2) +
+  geom_point(size = 5, colour = farbe_1) +
+  geom_text(aes(label = gespraeche), nudge_x = 0.7, size = 5.5, colour = text_primaer) +
+  scale_x_continuous(limits = c(0, kennzahlen$gespraeche), breaks = seq(0, 20, 5),
+                     expand = expansion(mult = c(0, 0.02))) +
+  labs(x = paste("Zahl der Gespräche mit Nennung, von", kennzahlen$gespraeche), y = NULL) +
+  theme_folien()
+```
+
+::: {.quelle}
+Gezählt per Textsuche in den Transkripten, Hörfehler wie «Clot» für Claude eingeschlossen. Zweitaufnahmen desselben Gesprächs zählen einmal.
+:::
+
+## {.zitatfolie}
+
+::: {.zitat}
+«Also der Prozess wird aufgeblasen statt effizienter in der gleichen Zeit.»
+:::
+
+::: {.zitat-herkunft}
+Leitfrage 3: Welche Ängste und Vorbehalte gegenüber KI zeigen sich, offen oder versteckt?
+:::
+
+## Datenschutz wird ausgesprochen, Unsicherheit bleibt versteckt
+
+```{r}
+#| label: aengste
+#| fig-height: 4.6
+#| fig-alt: "Gestapelte Balken der Ängste und Vorbehalte pro Thema, aufgeteilt in offen ausgesprochen und versteckt. Datenschutz und Gesellschaft sind fast nur offen, Unsicherheit fast nur versteckt."
+ggplot(aengste, aes(x = n, y = label, fill = subtype)) +
+  geom_col(width = 0.65, colour = flaeche, linewidth = 0.6) +
+  scale_fill_manual(values = c(offen = farbe_1, versteckt = farbe_2),
+                    breaks = c("offen", "versteckt"),
+                    labels = c("offen ausgesprochen", "versteckt")) +
+  scale_x_continuous(expand = expansion(mult = c(0, 0.05))) +
+  labs(x = "Anzahl Aussagen zu Leitfrage 3", y = NULL) +
+  theme_folien() +
+  theme(axis.text.y = element_text(size = 14))
+```
+
+::: {.quelle}
+**Offen:** Die Person nennt die Sorge selbst, zum Beispiel «immer so ein bisschen Angst um die Daten». **Versteckt:** Die Sorge wird nicht benannt, sie zeigt sich in Selbstzweifeln, Witzen oder Ausweichen, zum Beispiel «da bin ich noch zu doof». Diese Einordnung hat das Sprachmodell aus dem Gesprächsverlauf vorgenommen; sie ist eine Deutung.
+:::
+
+## Fast jeder dritte Use Case berührt Daten über Personen
+
+```{r}
+#| label: sensibilitaet
+#| fig-height: 4.6
+#| fig-alt: "Gestapelte Balken mit Anteilen pro Use-Case-Gruppe: Daten über Personen, interne Daten, keine heiklen Daten. Organisieren betrifft vor allem interne Daten, Vertrieb und Kontakte sowie Auswerten und Bauen oft Daten über Personen."
+ggplot(sensibilitaet, aes(x = anteil, y = gruppe, fill = data_sensitivity)) +
+  geom_col(width = 0.65, colour = flaeche, linewidth = 0.6) +
+  scale_fill_manual(values = c("Daten über Personen" = "#0f3d73", "interne Daten" = farbe_1,
+                               "keine heiklen Daten" = "#b9d3f2")) +
+  scale_x_continuous(labels = function(x) paste0(round(x * 100), " %"), expand = expansion(mult = c(0, 0.02))) +
+  labs(x = "Anteil der Use Cases in der Gruppe", y = NULL) +
+  theme_folien()
+```
+
+::: {.quelle}
+`r round(anteil_personen * 100)` % aller Use Cases arbeiten mit Daten über Personen (Mitarbeitende, Kund:innen, Bewerbende, Patient:innen, eigene Gesundheit). Eingeordnet aus der Beschreibung des Use Case.
+:::
+
+## {.zitatfolie}
+
+::: {.zitat}
+«Mehr Zeit fürs Menschliche.»
+:::
+
+::: {.zitat-herkunft}
+Leitfrage 6: Wenn diese Gruppe ein Motto für das Wochenende hätte, wie würde es lauten? Darunter die Themen aller Motto-Vorschläge.
+:::
+
+```{r}
+#| label: motto
+#| fig-height: 2.6
+#| fig-alt: "Kleines Balkendiagramm: Die Motto-Vorschläge betreffen am häufigsten das Thema der menschliche Beitrag, danach Begeisterung."
+ggplot(motto, aes(x = n, y = label)) +
+  geom_col(width = 0.6, fill = farbe_1) +
+  geom_text(aes(label = n), hjust = -0.4, size = 5, colour = text_primaer) +
+  scale_x_continuous(expand = expansion(mult = c(0, 0.1))) +
+  labs(x = "Motto-Vorschläge nach Thema", y = NULL) +
+  theme_folien()
+```
