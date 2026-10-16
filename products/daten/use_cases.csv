@@ -60,8 +60,8 @@ U058,T10,P10,gelebt,programmieren,bildung,,intern,software,"Ein Kollege der Pers
 U059,T10,P10,gelebt,programmieren,bildung,,personenbezogen,software,"Ein Kollege der Person hat mit KI ein Werkzeug für Fallbeispiele gebaut, das das Vorgehen der Auszubildenden aufzeichnet und einen Bericht erstellt."
 U060,T10,P10,gelebt,programmieren,bildung,,intern,software,"Ein Kollege der Person hat mit KI eine Geräteverfolgung per QR-Code gebaut, die zeigt, wer welches Gerät in welchem Raum hat."
 U061,T10,P10,wunsch,planen,bildung,,personenbezogen,planung,Die Einsatzplanung der Auszubildenden in Krankenhausabteilungen mit vielen Variablen soll mit KI erfolgen.
-U062,T10,P16,wunsch,automatisieren,coaching,,intern,assistenz,"Ein Assistent soll Kalender, Mails und Buchhaltung verknüpfen und an Rücksprachen und Vorbereitungsschritte für Aufträge erinnern."
-U063,T10,P16,wunsch,planen,coaching,,intern,planung,Eine Person möchte mit KI ihre Arbeitslast gleichmäßiger über die Wochen verteilen.
+U062,T10,P13,wunsch,automatisieren,coaching,,intern,assistenz,"Ein Assistent soll Kalender, Mails und Buchhaltung verknüpfen und an Rücksprachen und Vorbereitungsschritte für Aufträge erinnern."
+U063,T10,P13,wunsch,planen,coaching,,intern,planung,Eine Person möchte mit KI ihre Arbeitslast gleichmäßiger über die Wochen verteilen.
 U064,T11,P10,gelebt,planen,bildung,,intern,sparring,Eine Person nutzt KI für die Unterrichtsvorbereitung und die Organisation der Abläufe in der Schule.
 U065,T11,P09,gelebt,gestalten,medien,,intern,gestaltung,"Eine Person nutzt KI in der Markenkommunikation für Ideenentwicklung, Bildgenerierung und Videoproduktion."
 U066,T11,P10,wunsch,recherchieren,bildung,,keine,sparring,"Mit KI-Recherche und Quellenprüfung soll ohne Werbeagentur herausgefunden werden, welche Kommunikationskanäle sich lohnen."

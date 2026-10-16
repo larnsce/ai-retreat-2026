@@ -212,27 +212,27 @@ F0210,T09,P04,6,,mensch,Motto: Die Inhalte bleiben beim Menschen.,dass es inhalt
 F0211,T09,P12,6,,begeisterung,"Motto: Es reicht, der KI das Ziel zu sagen, den Weg erarbeitet sie mit.","Ich muss eigentlich nur sagen, ich will grundsätzlich.",nein
 F0212,T10,P10,1,,datenschutz,"Eine Person weiß, wie KI funktioniert, darf sie im Beruf aber kaum mit echten Daten nutzen und ist darüber frustriert.","Wie soll ich effektiv arbeiten, wenn ich nicht mit Daten operieren darf?",nein
 F0213,T10,P10,1,,begeisterung,,,ja
-F0214,T10,P16,1,,belastung,,,ja
-F0215,T10,P16,1,,unsicherheit,"Eine Person wertet ihre eigenen planerischen Fähigkeiten ab, KI soll eine gefühlte Schwäche ausgleichen.","meine Stärken liegen woanders. Nicht im strategischen, planvollen Arbeiten.",nein
-F0216,T10,P16,2,,belastung,,,ja
-F0217,T10,P16,2,,belastung,"Offen bleibt, ob das Problem bei Werkzeugen oder bei Auftragslage und Grenzen liegt, denn eine To-do-Liste hat nicht funktioniert.","funktioniert nicht, habe ich schon versucht.",nein
+F0214,T10,P13,1,,belastung,,,ja
+F0215,T10,P13,1,,unsicherheit,"Eine Person wertet ihre eigenen planerischen Fähigkeiten ab, KI soll eine gefühlte Schwäche ausgleichen.","meine Stärken liegen woanders. Nicht im strategischen, planvollen Arbeiten.",nein
+F0216,T10,P13,2,,belastung,,,ja
+F0217,T10,P13,2,,belastung,"Offen bleibt, ob das Problem bei Werkzeugen oder bei Auftragslage und Grenzen liegt, denn eine To-do-Liste hat nicht funktioniert.","funktioniert nicht, habe ich schon versucht.",nein
 F0218,T10,P10,2,,datenschutz,"Dass selbst gebaute Tools im Krankenhausumfeld Fragen nach Haftung, Datenschutz und Wartung aufwerfen, wird bei aller Begeisterung nicht angesprochen.",,nein
 F0219,T10,P10,3,offen,datenschutz,"Datenschutz-Grundverordnung und der Status als kritische Infrastruktur blockieren die Arbeit mit echten Daten, die Verantwortung liegt beim Nutzer.",die Datenschutzgrundverordnung und der Status als kritische Infrastruktur knocken uns einfach aus,nein
 F0220,T10,P10,3,offen,datenschutz,Platzhalter statt echter Daten gelten nur als Notlösung.,"Platzhalter sind eine Lösung, aber die kleinste mögliche Nennerlösung, die es gibt.",nein
 F0221,T10,P10,3,offen,automatisierung,Buchhaltung mit KI zu verknüpfen gilt als zu komplex.,aus meiner Sicht tatsächlich der Endgegner,nein
-F0222,T10,P16,3,versteckt,unsicherheit,"Eine Person weiß nicht, was mit KI überhaupt möglich ist.","das weiß ich nicht, was möglich ist.",nein
+F0222,T10,P13,3,versteckt,unsicherheit,"Eine Person weiß nicht, was mit KI überhaupt möglich ist.","das weiß ich nicht, was möglich ist.",nein
 F0223,T10,P10,4,gelebt,begeisterung,"Eine Person lässt problematische Mails aus einem kurzen Umriss entwerfen, überarbeitet sie und spart so etwa zwei Drittel der Zeit.",spare ich zwei Drittel Zeit ein,nein
 F0224,T10,P10,4,gelebt,begeisterung,Eine Person nutzt KI für Textzusammenfassungen und Bildgenerierung in der Ausbildung.,Bilder spielen in der Ausbildung immer eine große Rolle.,nein
 F0225,T10,P10,4,gelebt,begeisterung,,,ja
 F0226,T10,P10,4,wunsch,automatisierung,Die Einsatzplanung der Auszubildenden in Krankenhausabteilungen mit vielen Variablen soll mit KI gelingen.,Ist der administrative Overkill,nein
-F0227,T10,P16,4,wunsch,automatisierung,"Ein Assistent soll Kalender, Mails und Buchhaltung verknüpfen und an Vorbereitungsschritte für Aufträge erinnern.","Eine Verknüpfung von Kalender, Mails und wenn möglich sogar Buchhaltungsprogramm",nein
-F0228,T10,P16,4,wunsch,belastung,Eine Person möchte ihre Arbeitslast besser verteilen.,ich möchte meinen Workload besser verteilen.,nein
-F0229,T10,P16,4,buendelbar,automatisierung,Der Assistent für Fristen und Vorbereitung passt zu einem Office Organizer aus dem Personalwesen-Gespräch und einem Wochen-Dashboard eines Projektmanagers.,,nein
+F0227,T10,P13,4,wunsch,automatisierung,"Ein Assistent soll Kalender, Mails und Buchhaltung verknüpfen und an Vorbereitungsschritte für Aufträge erinnern.","Eine Verknüpfung von Kalender, Mails und wenn möglich sogar Buchhaltungsprogramm",nein
+F0228,T10,P13,4,wunsch,belastung,Eine Person möchte ihre Arbeitslast besser verteilen.,ich möchte meinen Workload besser verteilen.,nein
+F0229,T10,P13,4,buendelbar,automatisierung,Der Assistent für Fristen und Vorbereitung passt zu einem Office Organizer aus dem Personalwesen-Gespräch und einem Wochen-Dashboard eines Projektmanagers.,,nein
 F0230,T10,P10,4,buendelbar,begeisterung,Selbstbau statt teurer Speziallösung verbindet sich mit ähnlichen Ansätzen in der Personalberatung und im Marketing.,,nein
 F0231,T10,P10,5,,datenschutz,"Was können wir mit KI tun, wenn echte Daten tabu sind?",,nein
 F0232,T10,P10,5,,organisation,Wer trägt Verantwortung und Wartung für selbst gebaute Tools?,,nein
-F0233,T10,P16,5,,belastung,"Soll KI unsere Überlastung lösen, oder brauchen wir zuerst andere Grenzen?",,nein
-F0234,T10,P16,5,,belastung,Wie viel Freiraum für tiefe Arbeit schafft KI wirklich?,,nein
+F0233,T10,P13,5,,belastung,"Soll KI unsere Überlastung lösen, oder brauchen wir zuerst andere Grenzen?",,nein
+F0234,T10,P13,5,,belastung,Wie viel Freiraum für tiefe Arbeit schafft KI wirklich?,,nein
 F0235,T10,P10,6,,datenschutz,Motto: Effektiv arbeiten ohne Zugang zu echten Daten.,"Wie soll ich effektiv arbeiten, wenn ich nicht mit Daten operieren darf?",nein
 F0236,T10,P10,6,,begeisterung,Motto: Selbst nachbauen statt teuer einkaufen.,"Der hat das nachgebaut, eiskalt.",nein
 F0237,T11,P10,1,,unsicherheit,"Eine Person ist stolz auf ihre gut organisierte Lehre und hält sich zugleich für zu unbeholfen, KI schlüssig einzusetzen.",aber da bin ich noch zu doof,nein
