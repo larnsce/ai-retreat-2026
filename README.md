@@ -17,6 +17,18 @@ The extracted data and the code are shared, and every number and figure in the s
 
 The shared material contains names and personal details of other people. It is never committed, because the history of a repository is permanent. Products are committed only when they contain no personal data, for example a summary of themes without names.
 
+## Learnings
+
+### 16 persons in the data, 15 at the hike
+
+The slides counted 16 persons, but the group was 15. The count is the number of distinct speaker IDs (P01 to P16) in `speakers.csv`, and one person got two IDs.
+
+- Speaker IDs were assigned from what people said about themselves, because most transcripts have no speaker labels and names are rarely said aloud.
+- One person appears in two recordings (T10 and T20) with different descriptions of their work. Each recording got its own ID, P13 and P16. The local name key already flagged P16 as "possibly P13", but the build counted IDs, not people.
+- The two IDs never occur in the same recording, which fits one person.
+
+Next time: get the participant list before coding, settle uncertain IDs before any number goes on a slide, and let the build stop while the key still holds a "possibly" entry. A head count from outside the data is the check the data cannot give itself.
+
 ## Who
 
 Lars Schöbitz. Work happens on `dev`.
