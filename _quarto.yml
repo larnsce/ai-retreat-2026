@@ -1,0 +1,6 @@
+project:
+  type: default
+  output-dir: docs
+  render:
+    - products/folien/index.qmd
+  post-render: scripts/post_render.py

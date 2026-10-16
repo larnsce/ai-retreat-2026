@@ -1,0 +1,16 @@
+theme_code,label,description,questions
+pruefen,Prüfen und Nachvollziehbarkeit,"KI-Ergebnisse kontrollieren, Halluzinationen, den Weg zum Ergebnis zeigen können",1;2;3;5
+jobs,Arbeitsplätze und Ersetzbarkeit,"Stellenabbau, ""einer statt zehn"", fehlender Einstieg für junge Fachleute",1;2;3;5
+datenschutz,Datenschutz und sensible Daten,"Was darf in welche KI, Regeln, Graubereiche, personenbezogene Daten",2;3;5
+mehrarbeit,Mehrarbeit und Tempo,"Effizienz wird zu mehr Arbeit, ""immer mehr"", Überforderung, KI-Müdigkeit",1;2;3;5
+kompetenz,Verlust von Wissen und Können,"eigenes Denken, Gedächtnis und Handwerk verlieren, Lernen von Kindern und Studierenden",1;3;5
+mensch,Der menschliche Beitrag,"was Menschen noch beitragen, persönlicher Kontakt, eigener Ton und Stimme",1;3;5;6
+unsicherheit,Unsicherheit und Selbstzweifel,"sich abgehängt fühlen, technische Hemmschwelle, Terminal, nicht wissen, was möglich ist",1;3
+werkzeuge,Werkzeugvielfalt und Orientierung,"viele Tools, wechselnde Funktionen, unterschiedliche Vorgaben von Firma und Kunden, Anbieterabhängigkeit",1;2;3;5
+organisation,Rahmen in der Organisation,"Leitung bremst, keine Strategie, Einzelkämpfer:innen, Lernzeit wird nicht bezahlt",1;2;5
+ressourcen,Ressourcen und Nachhaltigkeit,"Energie, Tokens, Kosten der Nutzung",2;3;5
+belastung,Belastung und Ausgleich,"Erschöpfung, Abschalten, Grenzen, Ausgleich zur Arbeit mit KI",1;2;5
+gesellschaft,Gesellschaft und Macht,"Polarisierung, Machtkonzentration, Betrug, Plattformen, Weltlage",2;3;5
+aufnahmen,Aufnahmen und Einwilligung,"Aufzeichnungen am Retreat, wem wir Stimme und Daten geben",2;3;5
+automatisierung,Grenzen der Automatisierung,"Mensch in der Schleife, letzter Schritt persönlich, unpersönliche Ansprache",1;3;5;6
+begeisterung,Begeisterung und Möglichkeiten,"Freude am Bauen, Stolz, Demokratisierung, ""kein Hexenwerk""",1;6

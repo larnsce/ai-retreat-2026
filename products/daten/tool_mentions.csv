@@ -1,0 +1,105 @@
+transcript_id,tool,mentions
+T01,Granola,1
+T03,Claude Code,5
+T03,Claude,3
+T03,Copilot,3
+T03,Notion,1
+T03,Obsidian,1
+T03,Excel,7
+T04,Claude Code,2
+T04,Claude,5
+T04,Gemini,1
+T04,OpenRouter,2
+T04,Garmin,3
+T04,MCP,1
+T05,Claude Code,3
+T05,Claude,4
+T05,ChatGPT,1
+T05,Copilot,1
+T05,PowerPoint,1
+T05,Teams,1
+T05,lokales Modell,1
+T07,Claude,2
+T07,Copilot,2
+T07,Excel,2
+T07,Outlook,1
+T07,LinkedIn,2
+T08,Claude,1
+T08,ChatGPT,3
+T08,Copilot,8
+T08,Excel,5
+T08,Outlook,2
+T08,LinkedIn,5
+T09,Claude,1
+T09,ChatGPT,1
+T09,Copilot,1
+T09,Excel,4
+T09,PowerPoint,1
+T09,Teams,1
+T11,Excel,1
+T12,Notion,1
+T12,LinkedIn,3
+T13,Granola,2
+T14,Cloud oder Claude (unklar),1
+T14,Obsidian,1
+T14,Miro,1
+T14,Excel,1
+T14,LinkedIn,1
+T15,Claude Code,2
+T15,Claude,2
+T15,Cloud oder Claude (unklar),1
+T15,Gemini,1
+T15,OpenRouter,2
+T15,Garmin,1
+T16,Claude,1
+T16,ChatGPT,1
+T16,Copilot,4
+T16,Granola,2
+T16,Excel,3
+T16,Outlook,1
+T16,LinkedIn,3
+T17,Claude,1
+T17,ChatGPT,3
+T17,Granola,5
+T18,Claude,5
+T18,Gemini,1
+T18,Mistral,3
+T18,PowerPoint,1
+T19,Claude,6
+T19,ChatGPT,1
+T19,Notion,1
+T19,Excel,2
+T19,LinkedIn,13
+T20,Claude,3
+T20,ChatGPT,1
+T20,Excel,2
+T20,PowerPoint,3
+T20,LinkedIn,1
+T22,Claude,2
+T22,ChatGPT,2
+T22,Notion,2
+T22,LinkedIn,1
+T22,lokales Modell,1
+T23,Claude,3
+T23,Cloud oder Claude (unklar),1
+T23,ChatGPT,2
+T23,LinkedIn,2
+T23,lokales Modell,1
+T24,Claude,1
+T24,Cloud oder Claude (unklar),1
+T24,Gemini,1
+T24,Mistral,1
+T24,Granola,2
+T24,Teams,1
+T24,lokales Modell,1
+T25,Cloud oder Claude (unklar),2
+T25,ChatGPT,2
+T25,LinkedIn,1
+T26,Claude,2
+T26,Cloud oder Claude (unklar),2
+T26,ChatGPT,1
+T26,Gemini,2
+T26,Mistral,3
+T26,Excel,1
+T26,Outlook,1
+T26,Teams,1
