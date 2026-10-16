@@ -87,27 +87,32 @@ ggplot(pro_frage, aes(x = n, y = frage)) +
   theme_folien()
 ```
 
-## Was pro Leitfrage am häufigsten vorkommt
+## Was zwischen den Zeilen mitschwingt und worüber niemand spricht
 
 ```{r}
-#| label: themen
-#| fig-height: 5.8
-#| fig-alt: "Fünf kleine Balkendiagramme, eines pro Leitfrage ausser Use Cases. Jedes zeigt die drei Themen, die in den meisten Gesprächen vorkommen."
-ggplot(top_themen, aes(x = gespraeche, y = zeile)) +
-  geom_col(width = 0.7, fill = farbe_1) +
-  geom_text(aes(label = gespraeche), hjust = -0.3, size = 5, colour = text_primaer) +
-  facet_wrap(~ frage, ncol = 2, scales = "free_y") +
-  scale_y_discrete(labels = function(x) sub("___.*$", "", x)) +
-  scale_x_continuous(limits = c(0, 16), expand = expansion(mult = c(0, 0))) +
-  labs(x = paste("Zahl der Gespräche, von", kennzahlen$gespraeche), y = NULL) +
-  theme_folien() +
-  theme(strip.text = element_text(hjust = 1, size = 16, face = "bold", colour = text_primaer),
-        strip.clip = "off",
-        axis.text.y = element_text(size = 14), panel.spacing.y = unit(0.8, "lines"))
+#| label: beispiele
+#| results: asis
+spalte <- function(frage_nr, titel) {
+  b <- dplyr::filter(beispiele, question == frage_nr)
+  cat("::: {.column width=\"48%\"}\n")
+  cat("### ", titel, "\n\n", sep = "")
+  for (i in seq_len(nrow(b))) {
+    cat("::: {.aussage}\n")
+    cat(b$summary[i], "\n\n")
+    if (!is.na(b$quote[i]) && nzchar(b$quote[i])) cat("<span class=\"aussage-zitat\">«", b$quote[i], "»</span>\n\n", sep = "")
+    cat("<span class=\"aussage-person\">", b$person[i], " · ", b$label[i], "</span>\n", sep = "")
+    cat(":::\n\n")
+  }
+  cat(":::\n\n")
+}
+cat(":::: {.columns}\n\n")
+spalte("1", "1 Zwischen den Zeilen")
+spalte("2", "2 Pink Elephants")
+cat("::::\n")
 ```
 
 ::: {.quelle}
-Je Leitfrage die drei Themen aus dem Codebuch, die in den meisten Gesprächen vorkommen. Leitfrage 4 folgt auf Folie 5.
+Je drei Aussagen aus den häufigsten Themen der Leitfrage, nicht als sensibel markiert. Personen als Pseudonym (P01 bis P16) mit ihrem Bereich.
 :::
 
 ## {.zitatfolie}

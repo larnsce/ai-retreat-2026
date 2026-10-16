@@ -136,3 +136,19 @@ motto <- findings |>
   left_join(select(themes, theme_code, label), by = "theme_code") |>
   slice_max(n, n = 5, with_ties = FALSE) |>
   mutate(label = fct_reorder(label, n))
+
+# Folie 3: je drei Beispiele für Leitfrage 1 und 2, mit Person (Pseudonym und Bereich).
+# Ausgewählt: nicht sensibel, Person zugeordnet, aus den häufigsten Themen der Frage.
+beispiel_ids <- c("F0425", "F0035", "F0516", "F0490", "F0008", "F0613")
+bereiche <- c(wissenschaft = "Wissenschaft", personal = "Personal", beratung = "Beratung",
+              coaching = "Coaching", bildung = "Bildung", projektmanagement = "Projektmanagement",
+              gesundheit = "Gesundheit", medien = "Medien", technik = "Technik", andere = "andere")
+personen <- speakers |>
+  distinct(speaker_id, sector) |>
+  mutate(person = paste0(speaker_id, ", ", unname(bereiche[sector])))
+beispiele <- findings |>
+  filter(finding_id %in% beispiel_ids) |>
+  left_join(select(personen, speaker_id, person), by = "speaker_id") |>
+  left_join(select(themes, theme_code, label), by = "theme_code") |>
+  mutate(finding_id = factor(finding_id, levels = beispiel_ids)) |>
+  arrange(finding_id)
