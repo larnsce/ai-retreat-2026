@@ -7,7 +7,7 @@ library(dplyr)
 library(tidyr)
 library(forcats)
 
-pfad_shared <- here::here("shared", "daten")
+pfad_shared <- here::here("products", "daten")
 pfad_codes <- here::here("products", "daten")
 
 lies <- function(pfad, datei) read_csv(file.path(pfad, datei), show_col_types = FALSE, col_types = cols(.default = col_character()))
