@@ -114,7 +114,7 @@ cat("::::\n")
 ```
 
 ::: {.quelle}
-Je drei Aussagen aus den häufigsten Themen der Leitfrage, nicht als sensibel markiert. Personen als Pseudonym (P01 bis P16) mit ihrem Bereich.
+Je drei Aussagen aus den häufigsten Themen der Leitfrage, nicht als sensibel markiert. Personen als Pseudonym (P01 bis P15) mit ihrem Bereich.
 :::
 
 ## {.zitatfolie}

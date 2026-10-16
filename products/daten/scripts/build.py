@@ -88,6 +88,10 @@ def main():
         if u["cluster"] not in clusters: problems.append(f"{where}: cluster {u['cluster']}")
         if u["data_sensitivity"] not in ("keine", "intern", "personenbezogen"): problems.append(f"{where}: data_sensitivity {u['data_sensitivity']}")
         if u["speaker_id"] != "unklar" and u["speaker_id"] not in skey: problems.append(f"{where}: speaker {u['speaker_id']}")
+    # An ID still marked as possibly another person would be counted twice.
+    for sid in sorted({r["speaker_id"] for r in speakers + findings + use_cases}):
+        if "möglicherweise" in skey.get(sid, {}).get("erkennungsmerkmale", ""):
+            problems.append(f"speaker {sid}: identity unsettled in the speaker key")
     for row in findings + use_cases:
         for col in ("summary", "quote"):
             text = row.get(col) or ""
