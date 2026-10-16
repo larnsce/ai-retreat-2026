@@ -152,3 +152,23 @@ beispiele <- findings |>
   left_join(select(themes, theme_code, label), by = "theme_code") |>
   mutate(finding_id = factor(finding_id, levels = beispiel_ids)) |>
   arrange(finding_id)
+
+# Folie 10: Zusammenfassung der als sensibel markierten Aussagen, nur Zahlen
+sensibel <- findings |> filter(sensitive == "ja")
+sensibel_kennzahlen <- list(
+  n = nrow(sensibel),
+  anteil = nrow(sensibel) / nrow(findings),
+  aufnahmen = n_distinct(sensibel$transcript_id),
+  personen = n_distinct(sensibel$speaker_id[sensibel$speaker_id != "unklar"])
+)
+sensibel_themen <- sensibel |>
+  count(theme_code) |>
+  left_join(select(themes, theme_code, label), by = "theme_code") |>
+  mutate(label = if_else(n < 6, "weitere Themen", label)) |>
+  group_by(label) |>
+  summarise(n = sum(n), .groups = "drop") |>
+  mutate(label = fct_relevel(fct_reorder(label, n), "weitere Themen"))
+sensibel_fragen <- sensibel |>
+  count(question) |>
+  left_join(leitfragen, by = "question") |>
+  arrange(desc(n))
