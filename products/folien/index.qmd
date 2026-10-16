@@ -73,7 +73,7 @@ Jede Aufnahme wurde mit den sechs Leitfragen ausgewertet, jede Aussage einem von
 Folien online: [larnsce.github.io/ai-retreat-2026](https://larnsce.github.io/ai-retreat-2026/)
 
 ::: {.quelle}
-Automatisch transkribiert und von einem Sprachmodell codiert, von Lars geprüft. Zählungen zeigen, wie oft etwas angesprochen wurde, keine Gewichtung.
+Automatisch transkribiert und von einem Sprachmodell codiert, von Lars geprüft. Zählungen zeigen, wie oft etwas angesprochen wurde, keine Gewichtung. Die extrahierten Daten und der Code sind geteilt, alle Zahlen und Grafiken lassen sich reproduzieren: [github.com/larnsce/ai-retreat-2026](https://github.com/larnsce/ai-retreat-2026).
 :::
 
 ## Die meisten Aussagen betreffen Use Cases und Ängste
